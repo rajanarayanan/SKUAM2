@@ -1,0 +1,381 @@
+[{
+	"Id": "10000000010000001001010000101101",
+	"RequestId": "RequestId 1",
+	"Requester": "Requester 1",
+	"CreateBy": "CreateBy 1",
+	"CreatedOn": "/Date(1130505124000)/",
+	"Status": "Status 1",
+	"Cuname": "Cuname 1",
+	"ChangedOn": "/Date(1542895924000)/",
+	"ProductType": "ProductType 1",
+	"ProductLine": "ProductLine 1",
+	"PndReqDate": "/Date(1376572324000)/",
+	"ReqActvDate": "/Date(1146489124000)/",
+	"ReqBg": "ReqBg 1",
+	"__metadata": {
+		"uri": "SkuRequestSet(10000000010000001001010000101101)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000000010000001001010000101101)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000000010000001001010000101101)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000000010000001001010000101101)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000000010000001001010000101101)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "10001010101010000101010111001011",
+	"RequestId": "RequestId 2",
+	"Requester": "Requester 2",
+	"CreateBy": "CreateBy 2",
+	"CreatedOn": "/Date(1158844324000)/",
+	"Status": "Status 2",
+	"Cuname": "Cuname 2",
+	"ChangedOn": "/Date(1406639524000)/",
+	"ProductType": "ProductType 2",
+	"ProductLine": "ProductLine 2",
+	"PndReqDate": "/Date(1443013924000)/",
+	"ReqActvDate": "/Date(1561727524000)/",
+	"ReqBg": "ReqBg 2",
+	"__metadata": {
+		"uri": "SkuRequestSet(10001010101010000101010111001011)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10001010101010000101010111001011)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10001010101010000101010111001011)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10001010101010000101010111001011)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10001010101010000101010111001011)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "00101010110011010001101010010000",
+	"RequestId": "RequestId 3",
+	"Requester": "Requester 3",
+	"CreateBy": "CreateBy 3",
+	"CreatedOn": "/Date(977235124000)/",
+	"Status": "Status 3",
+	"Cuname": "Cuname 3",
+	"ChangedOn": "/Date(1275138724000)/",
+	"ProductType": "ProductType 3",
+	"ProductLine": "ProductLine 3",
+	"PndReqDate": "/Date(1132495924000)/",
+	"ReqActvDate": "/Date(1378905124000)/",
+	"ReqBg": "ReqBg 3",
+	"__metadata": {
+		"uri": "SkuRequestSet(00101010110011010001101010010000)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00101010110011010001101010010000)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00101010110011010001101010010000)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00101010110011010001101010010000)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00101010110011010001101010010000)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "11000010111010001000101010111101",
+	"RequestId": "RequestId 4",
+	"Requester": "Requester 4",
+	"CreateBy": "CreateBy 4",
+	"CreatedOn": "/Date(1080137524000)/",
+	"Status": "Status 4",
+	"Cuname": "Cuname 4",
+	"ChangedOn": "/Date(1474981924000)/",
+	"ProductType": "ProductType 4",
+	"ProductLine": "ProductLine 4",
+	"PndReqDate": "/Date(1506604324000)/",
+	"ReqActvDate": "/Date(1429362724000)/",
+	"ReqBg": "ReqBg 4",
+	"__metadata": {
+		"uri": "SkuRequestSet(11000010111010001000101010111101)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010111010001000101010111101)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010111010001000101010111101)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010111010001000101010111101)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010111010001000101010111101)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "01001011110010011000100011001101",
+	"RequestId": "RequestId 5",
+	"Requester": "Requester 5",
+	"CreateBy": "CreateBy 5",
+	"CreatedOn": "/Date(1189948324000)/",
+	"Status": "Status 5",
+	"Cuname": "Cuname 5",
+	"ChangedOn": "/Date(1557493924000)/",
+	"ProductType": "ProductType 5",
+	"ProductLine": "ProductLine 5",
+	"PndReqDate": "/Date(1008771124000)/",
+	"ReqActvDate": "/Date(1335013924000)/",
+	"ReqBg": "ReqBg 5",
+	"__metadata": {
+		"uri": "SkuRequestSet(01001011110010011000100011001101)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01001011110010011000100011001101)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01001011110010011000100011001101)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01001011110010011000100011001101)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01001011110010011000100011001101)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "11000010001011000010110001100100",
+	"RequestId": "RequestId 6",
+	"Requester": "Requester 6",
+	"CreateBy": "CreateBy 6",
+	"CreatedOn": "/Date(1488463924000)/",
+	"Status": "Status 6",
+	"Cuname": "Cuname 6",
+	"ChangedOn": "/Date(1368105124000)/",
+	"ProductType": "ProductType 6",
+	"ProductLine": "ProductLine 6",
+	"PndReqDate": "/Date(1448979124000)/",
+	"ReqActvDate": "/Date(1539177124000)/",
+	"ReqBg": "ReqBg 6",
+	"__metadata": {
+		"uri": "SkuRequestSet(11000010001011000010110001100100)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010001011000010110001100100)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010001011000010110001100100)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010001011000010110001100100)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(11000010001011000010110001100100)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "00000010100110010010010001111011",
+	"RequestId": "RequestId 7",
+	"Requester": "Requester 7",
+	"CreateBy": "CreateBy 7",
+	"CreatedOn": "/Date(1345813924000)/",
+	"Status": "Status 7",
+	"Cuname": "Cuname 7",
+	"ChangedOn": "/Date(1473945124000)/",
+	"ProductType": "ProductType 7",
+	"ProductLine": "ProductLine 7",
+	"PndReqDate": "/Date(1031749924000)/",
+	"ReqActvDate": "/Date(1228486324000)/",
+	"ReqBg": "ReqBg 7",
+	"__metadata": {
+		"uri": "SkuRequestSet(00000010100110010010010001111011)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00000010100110010010010001111011)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00000010100110010010010001111011)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00000010100110010010010001111011)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(00000010100110010010010001111011)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "01000011100011001101111010110110",
+	"RequestId": "RequestId 8",
+	"Requester": "Requester 8",
+	"CreateBy": "CreateBy 8",
+	"CreatedOn": "/Date(1204207924000)/",
+	"Status": "Status 8",
+	"Cuname": "Cuname 8",
+	"ChangedOn": "/Date(1316437924000)/",
+	"ProductType": "ProductType 8",
+	"ProductLine": "ProductLine 8",
+	"PndReqDate": "/Date(1362579124000)/",
+	"ReqActvDate": "/Date(1466946724000)/",
+	"ReqBg": "ReqBg 8",
+	"__metadata": {
+		"uri": "SkuRequestSet(01000011100011001101111010110110)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01000011100011001101111010110110)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01000011100011001101111010110110)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01000011100011001101111010110110)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01000011100011001101111010110110)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "10000010100101001111110000001001",
+	"RequestId": "RequestId 9",
+	"Requester": "Requester 9",
+	"CreateBy": "CreateBy 9",
+	"CreatedOn": "/Date(1528895524000)/",
+	"Status": "Status 9",
+	"Cuname": "Cuname 9",
+	"ChangedOn": "/Date(1378905124000)/",
+	"ProductType": "ProductType 9",
+	"ProductLine": "ProductLine 9",
+	"PndReqDate": "/Date(1562332324000)/",
+	"ReqActvDate": "/Date(974902324000)/",
+	"ReqBg": "ReqBg 9",
+	"__metadata": {
+		"uri": "SkuRequestSet(10000010100101001111110000001001)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000010100101001111110000001001)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000010100101001111110000001001)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000010100101001111110000001001)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(10000010100101001111110000001001)/SkuRequestToReqQuestionaries"
+		}
+	}
+}, {
+	"Id": "01011110011011010101000010100111",
+	"RequestId": "RequestId 10",
+	"Requester": "Requester 10",
+	"CreateBy": "CreateBy 10",
+	"CreatedOn": "/Date(1174914724000)/",
+	"Status": "Status 10",
+	"Cuname": "Cuname 10",
+	"ChangedOn": "/Date(1446905524000)/",
+	"ProductType": "ProductType 10",
+	"ProductLine": "ProductLine 10",
+	"PndReqDate": "/Date(1340284324000)/",
+	"ReqActvDate": "/Date(1133273524000)/",
+	"ReqBg": "ReqBg 10",
+	"__metadata": {
+		"uri": "SkuRequestSet(01011110011011010101000010100111)",
+		"type": "ZDEMO_SRV.SkuRequest"
+	},
+	"PrimarySkuListSet": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01011110011011010101000010100111)/PrimarySkuListSet"
+		}
+	},
+	"RequestToAttachments": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01011110011011010101000010100111)/RequestToAttachments"
+		}
+	},
+	"RequestToProgramVersions": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01011110011011010101000010100111)/RequestToProgramVersions"
+		}
+	},
+	"SkuRequestToReqQuestionaries": {
+		"__deferred": {
+			"uri": "SkuRequestSet(01011110011011010101000010100111)/SkuRequestToReqQuestionaries"
+		}
+	}
+}]

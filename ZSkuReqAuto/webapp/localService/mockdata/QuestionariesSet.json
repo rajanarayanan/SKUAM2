@@ -1,0 +1,81 @@
+[{
+	"QuesntionId": "QuesntionId 1",
+	"Question": "Question 1",
+	"Mandatory": "Mandatory 1",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%201')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 2",
+	"Question": "Question 2",
+	"Mandatory": "Mandatory 2",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%202')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 3",
+	"Question": "Question 3",
+	"Mandatory": "Mandatory 3",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%203')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 4",
+	"Question": "Question 4",
+	"Mandatory": "Mandatory 4",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%204')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 5",
+	"Question": "Question 5",
+	"Mandatory": "Mandatory 5",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%205')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 6",
+	"Question": "Question 6",
+	"Mandatory": "Mandatory 6",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%206')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 7",
+	"Question": "Question 7",
+	"Mandatory": "Mandatory 7",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%207')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 8",
+	"Question": "Question 8",
+	"Mandatory": "Mandatory 8",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%208')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 9",
+	"Question": "Question 9",
+	"Mandatory": "Mandatory 9",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%209')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}, {
+	"QuesntionId": "QuesntionId 10",
+	"Question": "Question 10",
+	"Mandatory": "Mandatory 10",
+	"__metadata": {
+		"uri": "QuestionariesSet('QuesntionId%2010')",
+		"type": "ZDEMO_SRV.Questionaries"
+	}
+}]

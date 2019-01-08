@@ -1,0 +1,71 @@
+[{
+	"LicType": "LicType 1",
+	"Description": "Description 1",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%201')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 2",
+	"Description": "Description 2",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%202')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 3",
+	"Description": "Description 3",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%203')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 4",
+	"Description": "Description 4",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%204')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 5",
+	"Description": "Description 5",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%205')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 6",
+	"Description": "Description 6",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%206')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 7",
+	"Description": "Description 7",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%207')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 8",
+	"Description": "Description 8",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%208')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 9",
+	"Description": "Description 9",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%209')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}, {
+	"LicType": "LicType 10",
+	"Description": "Description 10",
+	"__metadata": {
+		"uri": "LicensingProgramTypeSet('LicType%2010')",
+		"type": "ZDEMO_SRV.LicensingProgramType"
+	}
+}]
