@@ -1,0 +1,181 @@
+[{
+	"Id": "10000000010000001001010000101101",
+	"RequestId": "RequestId 1",
+	"Requester": "Requester 1",
+	"CreateBy": "CreateBy 1",
+	"CreatedOn": "/Date(1199110423000)/",
+	"Status": "Status 1",
+	"Cuname": "Cuname 1",
+	"ChangedOn": "/Date(1134137623000)/",
+	"ProductType": "ProductType 1",
+	"ProductLine": "ProductLine 1",
+	"PndReqDate": "/Date(1454249623000)/",
+	"ReqActvDate": "/Date(1545920023000)/",
+	"ReqBg": "ReqBg 1",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(10000000010000001001010000101101)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "10001010101010000101010111001011",
+	"RequestId": "RequestId 2",
+	"Requester": "Requester 2",
+	"CreateBy": "CreateBy 2",
+	"CreatedOn": "/Date(1316956423000)/",
+	"Status": "Status 2",
+	"Cuname": "Cuname 2",
+	"ChangedOn": "/Date(1088428423000)/",
+	"ProductType": "ProductType 2",
+	"ProductLine": "ProductLine 2",
+	"PndReqDate": "/Date(1074262423000)/",
+	"ReqActvDate": "/Date(1203948823000)/",
+	"ReqBg": "ReqBg 2",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(10001010101010000101010111001011)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "00101010110011010001101010010000",
+	"RequestId": "RequestId 3",
+	"Requester": "Requester 3",
+	"CreateBy": "CreateBy 3",
+	"CreatedOn": "/Date(1366031623000)/",
+	"Status": "Status 3",
+	"Cuname": "Cuname 3",
+	"ChangedOn": "/Date(1217682823000)/",
+	"ProductType": "ProductType 3",
+	"ProductLine": "ProductLine 3",
+	"PndReqDate": "/Date(996066823000)/",
+	"ReqActvDate": "/Date(1079446423000)/",
+	"ReqBg": "ReqBg 3",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(00101010110011010001101010010000)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "11000010111010001000101010111101",
+	"RequestId": "RequestId 4",
+	"Requester": "Requester 4",
+	"CreateBy": "CreateBy 4",
+	"CreatedOn": "/Date(1304255623000)/",
+	"Status": "Status 4",
+	"Cuname": "Cuname 4",
+	"ChangedOn": "/Date(1410268423000)/",
+	"ProductType": "ProductType 4",
+	"ProductLine": "ProductLine 4",
+	"PndReqDate": "/Date(985011223000)/",
+	"ReqActvDate": "/Date(1557666823000)/",
+	"ReqBg": "ReqBg 4",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(11000010111010001000101010111101)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "01001011110010011000100011001101",
+	"RequestId": "RequestId 5",
+	"Requester": "Requester 5",
+	"CreateBy": "CreateBy 5",
+	"CreatedOn": "/Date(1436015623000)/",
+	"Status": "Status 5",
+	"Cuname": "Cuname 5",
+	"ChangedOn": "/Date(1098710023000)/",
+	"ProductType": "ProductType 5",
+	"ProductLine": "ProductLine 5",
+	"PndReqDate": "/Date(1495977223000)/",
+	"ReqActvDate": "/Date(1105366423000)/",
+	"ReqBg": "ReqBg 5",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(01001011110010011000100011001101)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "11000010001011000010110001100100",
+	"RequestId": "RequestId 6",
+	"Requester": "Requester 6",
+	"CreateBy": "CreateBy 6",
+	"CreatedOn": "/Date(1165241623000)/",
+	"Status": "Status 6",
+	"Cuname": "Cuname 6",
+	"ChangedOn": "/Date(1560345223000)/",
+	"ProductType": "ProductType 6",
+	"ProductLine": "ProductLine 6",
+	"PndReqDate": "/Date(1198419223000)/",
+	"ReqActvDate": "/Date(1113052423000)/",
+	"ReqBg": "ReqBg 6",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(11000010001011000010110001100100)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "00000010100110010010010001111011",
+	"RequestId": "RequestId 7",
+	"Requester": "Requester 7",
+	"CreateBy": "CreateBy 7",
+	"CreatedOn": "/Date(1036419223000)/",
+	"Status": "Status 7",
+	"Cuname": "Cuname 7",
+	"ChangedOn": "/Date(967900423000)/",
+	"ProductType": "ProductType 7",
+	"ProductLine": "ProductLine 7",
+	"PndReqDate": "/Date(1180185223000)/",
+	"ReqActvDate": "/Date(1163081623000)/",
+	"ReqBg": "ReqBg 7",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(00000010100110010010010001111011)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "01000011100011001101111010110110",
+	"RequestId": "RequestId 8",
+	"Requester": "Requester 8",
+	"CreateBy": "CreateBy 8",
+	"CreatedOn": "/Date(1420640023000)/",
+	"Status": "Status 8",
+	"Cuname": "Cuname 8",
+	"ChangedOn": "/Date(1184332423000)/",
+	"ProductType": "ProductType 8",
+	"ProductLine": "ProductLine 8",
+	"PndReqDate": "/Date(1372166023000)/",
+	"ReqActvDate": "/Date(1331903623000)/",
+	"ReqBg": "ReqBg 8",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(01000011100011001101111010110110)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "10000010100101001111110000001001",
+	"RequestId": "RequestId 9",
+	"Requester": "Requester 9",
+	"CreateBy": "CreateBy 9",
+	"CreatedOn": "/Date(956150023000)/",
+	"Status": "Status 9",
+	"Cuname": "Cuname 9",
+	"ChangedOn": "/Date(1478351623000)/",
+	"ProductType": "ProductType 9",
+	"ProductLine": "ProductLine 9",
+	"PndReqDate": "/Date(1483452823000)/",
+	"ReqActvDate": "/Date(1114089223000)/",
+	"ReqBg": "ReqBg 9",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(10000010100101001111110000001001)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}, {
+	"Id": "01011110011011010101000010100111",
+	"RequestId": "RequestId 10",
+	"Requester": "Requester 10",
+	"CreateBy": "CreateBy 10",
+	"CreatedOn": "/Date(1222866823000)/",
+	"Status": "Status 10",
+	"Cuname": "Cuname 10",
+	"ChangedOn": "/Date(961593223000)/",
+	"ProductType": "ProductType 10",
+	"ProductLine": "ProductLine 10",
+	"PndReqDate": "/Date(1015942423000)/",
+	"ReqActvDate": "/Date(1337606023000)/",
+	"ReqBg": "ReqBg 10",
+	"__metadata": {
+		"uri": "PrimarySkuListSet(01011110011011010101000010100111)",
+		"type": "ZDEMO_SRV.PrimarySkuList"
+	}
+}]
