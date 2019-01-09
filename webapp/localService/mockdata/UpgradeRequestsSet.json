@@ -1,0 +1,81 @@
+[{
+	"Id": "11110000001011000001011010111001",
+	"FromItem": 4381,
+	"ToItem": 4359,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=11110000001011000001011010111001,FromItem=4381,ToItem=4359)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "11101111100110111111001010001010",
+	"FromItem": 7134,
+	"ToItem": 7977,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=11101111100110111111001010001010,FromItem=7134,ToItem=7977)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "00110110101001001010111100111011",
+	"FromItem": 9796,
+	"ToItem": 176,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=00110110101001001010111100111011,FromItem=9796,ToItem=176)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "01001100001110101111000001000010",
+	"FromItem": 6300,
+	"ToItem": 6293,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=01001100001110101111000001000010,FromItem=6300,ToItem=6293)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "01111010110010010110111011111101",
+	"FromItem": 7491,
+	"ToItem": 9265,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=01111010110010010110111011111101,FromItem=7491,ToItem=9265)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "10000100100001111000000001010001",
+	"FromItem": 7779,
+	"ToItem": 8090,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=10000100100001111000000001010001,FromItem=7779,ToItem=8090)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "00100001010010011010010110010110",
+	"FromItem": 8379,
+	"ToItem": 9735,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=00100001010010011010010110010110,FromItem=8379,ToItem=9735)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "00100001000110011111001011100010",
+	"FromItem": 7418,
+	"ToItem": 6883,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=00100001000110011111001011100010,FromItem=7418,ToItem=6883)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "00111111110010111001000111001010",
+	"FromItem": 1607,
+	"ToItem": 6261,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=00111111110010111001000111001010,FromItem=1607,ToItem=6261)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}, {
+	"Id": "01101101001100100110010111111100",
+	"FromItem": 9600,
+	"ToItem": 4098,
+	"__metadata": {
+		"uri": "UpgradeRequestsSet(Id=01101101001100100110010111111100,FromItem=9600,ToItem=4098)",
+		"type": "ZDEMO_SRV.UpgradeRequests"
+	}
+}]
