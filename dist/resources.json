@@ -54,7 +54,23 @@
             "name": "controller/Worklist.controller.js"
         },
         {
+            "name": "css/style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
             "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "fioriHtmlRunner.html"
+        },
+        {
+            "name": "fragments/ProgramVersionPopup.fragment.xml"
         },
         {
             "name": "i18n/i18n.properties",
@@ -62,6 +78,45 @@
         },
         {
             "name": "localService/metadata.xml"
+        },
+        {
+            "name": "localService/mockdata/LicenseComponentsSet.json"
+        },
+        {
+            "name": "localService/mockdata/LicensingProgramTypeSet.json"
+        },
+        {
+            "name": "localService/mockdata/PlatformsEditionSet.json"
+        },
+        {
+            "name": "localService/mockdata/PlatformsSet.json"
+        },
+        {
+            "name": "localService/mockdata/PrimarySkuListSet.json"
+        },
+        {
+            "name": "localService/mockdata/ProductLinesSet.json"
+        },
+        {
+            "name": "localService/mockdata/ProgramVersionsSet.json"
+        },
+        {
+            "name": "localService/mockdata/QuestionariesSet.json"
+        },
+        {
+            "name": "localService/mockdata/ReqAttachmentsSet.json"
+        },
+        {
+            "name": "localService/mockdata/ReqQuestionariesSet.json"
+        },
+        {
+            "name": "localService/mockdata/SkuRequestSet.json"
+        },
+        {
+            "name": "localService/mockdata/SubscriptionCollection.json"
+        },
+        {
+            "name": "localService/mockdata/UpgradeRequestsSet.json"
         },
         {
             "name": "localService/mockserver-dbg.js",
@@ -267,11 +322,62 @@
             "name": "tmp/controller/Worklist.controller.js"
         },
         {
+            "name": "tmp/css/style.css"
+        },
+        {
+            "name": "tmp/extended_runnable_file.html"
+        },
+        {
+            "name": "tmp/fioriHtmlRunner.html"
+        },
+        {
+            "name": "tmp/fragments/ProgramVersionPopup.fragment.xml"
+        },
+        {
             "name": "tmp/i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
         {
             "name": "tmp/localService/metadata.xml"
+        },
+        {
+            "name": "tmp/localService/mockdata/LicenseComponentsSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/LicensingProgramTypeSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/PlatformsEditionSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/PlatformsSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/PrimarySkuListSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/ProductLinesSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/ProgramVersionsSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/QuestionariesSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/ReqAttachmentsSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/ReqQuestionariesSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/SkuRequestSet.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/SubscriptionCollection.json"
+        },
+        {
+            "name": "tmp/localService/mockdata/UpgradeRequestsSet.json"
         },
         {
             "name": "tmp/localService/mockserver.js"
@@ -395,6 +501,9 @@
         },
         {
             "name": "tmp-dbg/controller/Worklist.controller.js"
+        },
+        {
+            "name": "tmp-dbg/css/style.css"
         },
         {
             "name": "tmp-dbg/localService/mockserver.js"

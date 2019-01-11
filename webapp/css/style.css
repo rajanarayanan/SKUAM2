@@ -1,3 +1,7 @@
 .requestButton>.sapMBtnInner{
 border-color: black;	
 }
+
+.sapMP13nDialog{
+border:0px ;	
+}
