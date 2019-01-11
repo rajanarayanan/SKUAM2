@@ -16,6 +16,8 @@ sap.ui.define([
 				}
 				return parseFloat(sValue).toFixed(2);
 			}
+			//INSERT DATE FORMAT: From TIMESTAMP to MM/DD/YYYY
+			
 
 		};
 
