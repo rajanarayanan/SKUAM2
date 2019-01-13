@@ -148,6 +148,12 @@
 					]
 				},
 				{
+					"name": "SKURequest",
+					"pattern": "SKURequest",
+					"target": [
+						"SKURequest"
+        },
+        {
 					"name": "Object",
 					"pattern": "Object",
 					"target": [
@@ -182,6 +188,10 @@
 				"notFound": {
 					"viewName": "NotFound",
 					"viewId": "notFound"
+				},
+				"SKURequest": {
+					"viewType": "XML",
+					"viewName": "SKURequest"
 				},
 				"ProgramVersions": {
 					"viewType": "XML",

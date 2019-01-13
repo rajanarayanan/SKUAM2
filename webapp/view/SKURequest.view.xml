@@ -1,0 +1,155 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+    xmlns:f="sap.ui.layout.form"
+    xmlns:chart="sap.suite.ui.microchart"
+    controllerName="skurequestapp.controller.SKURequest"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Hardware SKU Request Form" titleLevel="H1">
+				<headerContent>
+				  <Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
+				</headerContent>
+				<content>
+					<Panel >
+						<content>
+							<FlexBox alignItems="Center" justifyContent="Center">
+								<core:Icon src="sap-icon://warning2"></core:Icon>
+								<Text width="100%" text="This form is to be filled in its entirety by the SKU Requestor and formally submitted to MDM"></Text>
+							</FlexBox>
+							
+							<FlexBox alignItems="Center" justifyContent="Center">
+								<Button width="100%" text="General Information" type="Emphasized" enabled="false">	</Button>
+							</FlexBox>	
+						</content>
+						
+					</Panel>
+					
+					<VBox>
+						<FlexBox renderType="Bare">
+							<items>
+								<Panel headerText="Request Information"  width="100%" class="sapUiSmallMarginEnd">
+									<layoutData>
+										<FlexItemData growFactor="3" />
+									</layoutData>		
+									<headerToolbar>
+										<Toolbar>
+											<ToolbarSpacer width="20%"></ToolbarSpacer>
+											<Title level="H2" text="Request Information"/>
+										</Toolbar>
+									</headerToolbar>
+									<content>
+									<!--	<Text text="Request Type*" width="30%"></Text>
+										<Switch customTextOff="New" customTextOn="Update" name="Request Type"></Switch>-->
+										<ComboBox placeholder="Product Type" width="100%"></ComboBox>
+										<ComboBox placeholder="Product Line" width="100%"></ComboBox>
+										<SearchField width="100%" placeholder="SKU Requestor" />
+										<Button text="Add Product" width="50%" type="Emphasized"></Button>
+									</content>
+								</Panel>
+								
+								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
+									<layoutData>
+										<FlexItemData growFactor="2" />
+									</layoutData>	
+									<headerToolbar>
+										<Toolbar>
+											<ToolbarSpacer width="35%"></ToolbarSpacer>
+											<Title level="H2" text="Timelines" />
+										</Toolbar>
+									</headerToolbar>								
+									<content>
+										<DatePicker placeholder="Submitted Date" enabled="false" ></DatePicker>
+										<DatePicker placeholder="PND SKU List Requested Date" ></DatePicker>
+										<DatePicker placeholder="Requested Activation Date" ></DatePicker>
+									</content>
+								   <content>
+									 <Text />	
+								    </content>	
+								</Panel>	
+								
+								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
+									<layoutData>
+										<FlexItemData growFactor="2" />
+									</layoutData>	
+									<headerToolbar>
+										<Toolbar>
+											<ToolbarSpacer width="35%"></ToolbarSpacer>
+											<Title level="H2" text="% Completion" />
+										</Toolbar>
+									</headerToolbar>
+									<content>
+										<Text />
+									</content>	
+									<content>
+										<FlexBox alignItems="Center" justifyContent="Center" width="100%" >
+										    <core:InvisibleText  text="" />
+											<chart:RadialMicroChart size="L" percentage="70" valueColor="Neutral" />
+										</FlexBox>	
+									</content>
+									<content>
+									 <Text />	
+								    </content>
+								</Panel>							
+							
+							</items>
+						</FlexBox>						
+
+						<TextArea placeholder="Request Background*" width="100%"></TextArea>
+
+						<Panel>
+							<content>
+								<FlexBox renderType="Bare">
+									<items>
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+											<Toolbar>
+												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<Title level="H2" text="Final PAC Deck"/>
+											</Toolbar>										
+											<f:content>
+												<HBox>
+													<core:Icon src="sap-icon://document"></core:Icon>
+													<Link text="Click to add attachment"></Link>
+												</HBox>
+											</f:content>
+										</f:SimpleForm>
+										
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+											<Toolbar>
+												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<Title level="H2" text="Attachments"/>
+											</Toolbar>										
+											<f:content>
+											</f:content>
+										</f:SimpleForm>		
+										
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+											<Toolbar>
+												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<Title level="H2" text="PLR Approval"/>
+											</Toolbar>											
+											<f:content>
+												<Button text="PLR Approval Link"></Button>
+											</f:content>
+										</f:SimpleForm>								
+						
+									</items>
+		
+								</FlexBox>	
+							</content>
+						</Panel>
+
+
+						<FlexBox width="100%" alignItems="End" justifyContent="End">
+							<Button text="CANCEL" type="Emphasized"></Button>
+							<Button text="NEXT" type="Emphasized"></Button>
+						</FlexBox>	
+
+					
+					</VBox>
+					
+				</content>
+				
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
