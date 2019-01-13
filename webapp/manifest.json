@@ -22,9 +22,6 @@
 		"sourceTemplate": {
 			"id": "sap.ui.ui5-template-plugin.1worklist",
 			"version": "1.44.7"
-		},
-		"crossNavigation": {
-			"inbounds": {}
 		}
 	},
 	"sap.ui": {
@@ -68,8 +65,7 @@
 				"sap.ushell": {
 					"minVersion": "1.36.0"
 				}
-			},
-			"components": {}
+			}
 		},
 		"contentDensities": {
 			"compact": true,
@@ -93,11 +89,9 @@
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		},
 		"services": {
 			"ShellUIService": {
@@ -121,46 +115,39 @@
 						"notFound"
 					]
 				},
-				"async": true,
-				"viewLevel": null,
-				"transition": "slide"
+				"async": true
 			},
-			"routes": [
-				{
-					"pattern": "",
-					"name": "worklist",
-					"target": [
-						"worklist"
-					]
-				},
-				{
-					"pattern": "SkuRequestSet/{objectId}",
-					"name": "object",
-					"target": [
-						"object"
-					]
-				},
-				{
-					"name": "Object_binded",
-					"pattern": "Object/{Id}",
-					"target": [
-						"object"
-					]
-				},
-				{
+			"routes": [{
+				"pattern": "",
+				"name": "worklist",
+				"target": [
+					"worklist"
+				]
+			}, {
+				"pattern": "SkuRequestSet/{objectId}",
+				"name": "object",
+				"target": [
+					"object"
+				]
+			}, {
+				"name": "Object_binded",
+				"pattern": "Object/{Id}",
+				"target": [
+					"object"
+				]
+			}, {
 					"name": "SKURequest",
 					"pattern": "SKURequest",
 					"target": [
 						"SKURequest"
-        },
-        {
+						]
+        	}, {
 					"name": "Object",
 					"pattern": "Object",
 					"target": [
 						"object"
 					]
-				},
-				{
+			}, {
 					"name": "ProgramVersions",
 					"pattern": "ProgramVersions",
 					"target": [
@@ -209,7 +196,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zsku/webapp",
+		"uri": "/sap/bc/ui5_ui5/sap/zskureqauto/webapp",
 		"_version": "1.1.0"
 	}
 }
