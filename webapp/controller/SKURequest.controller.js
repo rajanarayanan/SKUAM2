@@ -40,12 +40,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 					this.getOwnerComponent().getRouter().navTo(oNavigation.routeName);
 				}
 			}
-
-
 		},
-		onBack: function(oEvent){
+		onBack: function (oEvent) {
 			// eslint-disable-next-line sap-no-history-manipulation
-				history.go(-1);
+			history.go(-1);
 
 		}
 	});

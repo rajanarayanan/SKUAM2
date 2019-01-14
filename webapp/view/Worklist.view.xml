@@ -16,7 +16,7 @@
 						<contentRight></contentRight>
 					</Bar>
 					<Table id="table" width="auto" class="sapUiResponsiveMargin"
-						items="{ path: '/SkuRequestSet', sorter: { path: 'RequestId', descending: false } }" noDataText="{worklistView>/tableNoDataText}"
+						items="{ path: '/SkuRequestSet', sorter: { path: 'Id', descending: false } }" noDataText="{worklistView>/tableNoDataText}"
 						busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
 						<headerToolbar>
 							<Toolbar>
@@ -48,7 +48,7 @@
 						<items>
 							<ColumnListItem type="Navigation" press="onPress">
 								<cells>
-									<ObjectIdentifier title="{RequestId}"/>
+									<ObjectIdentifier title="{Id}"/>
 								</cells>
 								<cells>
 									<ObjectIdentifier title="{Requester}"/>

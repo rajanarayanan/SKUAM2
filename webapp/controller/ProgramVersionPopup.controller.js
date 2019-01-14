@@ -13,6 +13,11 @@ sap.ui.define([
 		onInit: function () {
 
 		},
+		onBack: function(oEvent){
+			// eslint-disable-next-line sap-no-history-manipulation
+				history.go(-1);
+
+		}
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

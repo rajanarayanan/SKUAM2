@@ -98,7 +98,7 @@
 						<Button type="Accept" text="OK">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
-						<Button type="Reject" text="Cancel">
+						<Button type="Reject" text="Cancel" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 					</OverflowToolbar>

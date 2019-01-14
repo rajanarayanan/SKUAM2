@@ -39,7 +39,10 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_hcb", "sap_belize"]
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -110,11 +113,12 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
-					"target": ["notFound"]
+					"target": [
+						"notFound"
+					]
 				},
 				"async": true
 			},
-
 			"routes": [
 				{
 					"pattern": "",
@@ -164,9 +168,15 @@
 					"target": [
 						"worklist"
 					]
+				},
+				{
+					"name": "ProgramVersionPopup",
+					"pattern": "ProgramVersionPopup",
+					"target": [
+						"ProgramVersionPopup"
+					]
 				}
 			],
-
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
