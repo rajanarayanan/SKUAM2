@@ -39,10 +39,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -113,12 +110,11 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
-					"target": [
-						"notFound"
-					]
+					"target": ["notFound"]
 				},
 				"async": true
 			},
+
 			"routes": [
 				{
 					"pattern": "",
@@ -170,6 +166,7 @@
 					]
 				}
 			],
+
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
@@ -199,6 +196,13 @@
 					"viewType": "XML",
 					"viewName": "ProgramVersions",
 					"viewLevel": 1,
+					"transition": "flip"
+				},
+				"ProgramVersionPopup": {
+					"viewType": "XML",
+					"viewName": "ProgramVersionPopup",
+					"title": "",
+					"viewLevel": null,
 					"transition": "flip"
 				}
 			},

@@ -1,0 +1,109 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="skurequestapp.controller.ProgramVersionPopup">
+	<App>
+		<pages>
+			<Page title="{i18n>PopupTitle}">
+				<content>
+					<Panel>
+						<content>
+							<VBox>
+								<FlexBox renderType="Bare">
+									<items>
+										<Panel headerText="Add/Edit" width="25%" class="sapUiSmallMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+											<headerToolbar>
+												<Toolbar>
+													<Title level="H2" text="Add/Edit"/>
+												</Toolbar>
+											</headerToolbar>
+											<content>
+												<SearchField width="100%" placeholder="Product Version"/>
+												<Input xmlns="sap.m" id="input0" placeholder="Port Structure"/>
+											</content>
+										</Panel>
+										<Panel headerText="Product Platform" width="25%" class="sapUiSmallMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="2"/>
+											</layoutData>
+											<headerToolbar>
+												<Toolbar>
+													<Title level="H2" text="Product Platform"/>
+												</Toolbar>
+											</headerToolbar>
+											<content>
+												<VBox>
+													<CheckBox xmlns="sap.m" text="MPX" selected="false" id="box1"/>
+													<CheckBox xmlns="sap.m" text="SPX" selected="false" id="box2"/>
+												</VBox>
+											</content>
+										</Panel>
+										<Panel headerText="Add Items to List" width="25%" class="sapUiSmallMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="2"/>
+											</layoutData>
+											<headerToolbar>
+												<Toolbar>
+													<Title level="H2" text="Add Items to List"/>
+												</Toolbar>
+											</headerToolbar>
+											<content>
+												<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart"
+													xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+													text="Add New" width="50%" type="Emphasized" press="action"
+													action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}" id="buttonadd"/>
+											</content>
+										</Panel>
+									</items>
+								</FlexBox>
+								<Panel headerText="View" width="100%" class="sapUiSmallMarginEnd">
+									<content>
+										<Table noDataText="Drop column list items here and columns in the area above" id="table0">
+											<items>
+												<ColumnListItem type="Active" id="item0">
+													<cells>
+														<Text id="text4" text="8005 (2x10GE BASE-X SFP+ &amp; 6x10/100/1000 copper);SFP+SFP Sold Separately"/>
+														<Text text="MPX" id="text5"/>
+														<Button xmlns="sap.m" id="button0" icon="sap-icon://delete"/></cells>
+												</ColumnListItem>
+											</items>
+											<columns>
+												<Column id="column0">
+													<header>
+														<Label text="Version/Edition and Port Strucutre " id="label0"/>
+													</header>
+												</Column>
+												<Column id="column1">
+													<header>
+														<Label text="Platform" id="label1"/>
+													</header>
+												</Column>
+												<Column id="column2">
+													<header>
+														<Label text="Action" id="label2"/>
+													</header>
+												</Column>
+											</columns>
+										</Table>
+									</content>
+								</Panel>
+							</VBox>
+						</content>
+					</Panel>
+				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Accept" text="OK">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Reject" text="Cancel">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
