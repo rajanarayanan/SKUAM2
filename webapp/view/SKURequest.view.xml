@@ -1,11 +1,9 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
-	xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="skurequestapp.controller.SKURequest">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="skurequestapp.controller.SKURequest">
 	<App>
 		<pages>
 			<Page title="Hardware SKU Request Form" titleLevel="H1">
 				<headerContent>
-					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px"
-						id="image0"/>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
 				</headerContent>
 				<content>
 					<Panel>
@@ -15,7 +13,7 @@
 								<Text width="100%" text="This form is to be filled in its entirety by the SKU Requestor and formally submitted to MDM"/>
 							</FlexBox>
 							<FlexBox alignItems="Center" justifyContent="Center">
-								<Button width="100%" text="General Information" type="Emphasized" enabled="false"></Button>
+								<Button width="100%" text="General Information" type="Emphasized" enabled="false"/>
 							</FlexBox>
 						</content>
 					</Panel>
@@ -38,9 +36,7 @@
 										<ComboBox placeholder="Product Type" width="100%"/>
 										<ComboBox placeholder="Product Line" width="100%"/>
 										<SearchField width="100%" placeholder="SKU Requestor"/>
-										<Button text="Add Product" width="50%" type="Emphasized" press="action"
-											xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
-											action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}"/>
+										<Button text="Add Product" width="50%" type="Emphasized" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}"/>
 									</content>
 								</Panel>
 								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
@@ -109,7 +105,7 @@
 												<ToolbarSpacer width="1%"/>
 												<Title level="H2" text="Attachments"/>
 											</Toolbar>
-											<f:content></f:content>
+											<f:content/>
 										</f:SimpleForm>
 										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd">
 											<Toolbar>
@@ -130,7 +126,7 @@
 					<OverflowToolbar id="otbFooter">
 						<ToolbarSpacer/>
 						<Button type="Reject" text="Cancel" press="onBack">
-							<layoutData><OverflowToolbarLayoutData moveToOverflow="false" /></layoutData>
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 						<Button type="Accept" text="Next">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
