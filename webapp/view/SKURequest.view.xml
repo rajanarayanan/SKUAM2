@@ -124,12 +124,19 @@
 								</FlexBox>
 							</content>
 						</Panel>
-						<FlexBox width="100%" alignItems="End" justifyContent="End">
-							<Button text="CANCEL" type="Emphasized"/>
-							<Button text="NEXT" type="Emphasized"/>
-						</FlexBox>
-					</VBox>
+						</VBox>
 				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Accept" text="Cancel">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Reject" text="Next">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>				
 			</Page>
 		</pages>
 	</App>

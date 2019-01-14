@@ -175,7 +175,7 @@
 				"ProgramVersionPopup": {
 					"viewType": "XML",
 					"viewName": "ProgramVersionPopup",
-					"title": "Program Versions",
+					"title": "",
 					"viewLevel": null,
 					"transition": "flip"
 				}
