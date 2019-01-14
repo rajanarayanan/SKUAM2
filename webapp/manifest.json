@@ -86,9 +86,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"services": {
 			"ShellUIService": {
@@ -112,35 +114,59 @@
 				},
 				"async": true
 			},
-			"routes": [{
-				"pattern": "",
-				"name": "worklist",
-				"target": ["worklist"]
-			}, {
-				"pattern": "SkuRequestSet/{objectId}",
-				"name": "object",
-				"target": ["object"]
-			}, {
-				"name": "Object_binded",
-				"pattern": "Object/{Id}",
-				"target": ["object"]
-			}, {
-				"name": "SKURequest",
-				"pattern": "SKURequest",
-				"target": ["SKURequest"]
-			}, {
-				"name": "Object",
-				"pattern": "Object",
-				"target": ["object"]
-			}, {
-				"name": "ProgramVersions",
-				"pattern": "ProgramVersions",
-				"target": ["ProgramVersions"]
-			}, {
-				"name": "ProgramVersionPopup",
-				"pattern": "ProgramVersionPopup",
-				"target": ["ProgramVersionPopup"]
-			}],
+
+			"routes": [
+				{
+					"pattern": "",
+					"name": "worklist",
+					"target": [
+						"worklist"
+					]
+				},
+				{
+					"pattern": "SkuRequestSet/{objectId}",
+					"name": "object",
+					"target": [
+						"object"
+					]
+				},
+				{
+					"name": "Object_binded",
+					"pattern": "Object/{Id}",
+					"target": [
+						"object"
+					]
+				},
+				{
+					"name": "SKURequest",
+					"pattern": "SKURequest",
+					"target": [
+						"SKURequest"
+					]
+				},
+				{
+					"name": "Object",
+					"pattern": "Object",
+					"target": [
+						"object"
+					]
+				},
+				{
+					"name": "ProgramVersions",
+					"pattern": "ProgramVersions",
+					"target": [
+						"ProgramVersions"
+					]
+				},
+				{
+					"name": "Worklist",
+					"pattern": "Worklist",
+					"target": [
+						"worklist"
+					]
+				}
+			],
+
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
