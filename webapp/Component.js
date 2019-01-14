@@ -1,9 +1,10 @@
 sap.ui.define([
 		"sap/ui/core/UIComponent",
 		"sap/ui/Device",
+		"sap/m/routing/Router",
 		"skurequestapp/model/models",
 		"skurequestapp/controller/ErrorHandler"
-	], function (UIComponent, Device, models, ErrorHandler) {
+	], function (UIComponent, Device, Router ,models, ErrorHandler) {
 		"use strict";
 
 		return UIComponent.extend("skurequestapp.Component", {
