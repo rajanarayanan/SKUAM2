@@ -124,7 +124,7 @@
 								</FlexBox>
 							</content>
 						</Panel>
-						</VBox>
+					</VBox>
 				</content>
 				<footer>
 					<OverflowToolbar id="otbFooter">
@@ -136,7 +136,7 @@
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 					</OverflowToolbar>
-				</footer>				
+				</footer>
 			</Page>
 		</pages>
 	</App>

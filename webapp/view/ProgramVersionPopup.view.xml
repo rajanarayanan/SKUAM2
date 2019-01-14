@@ -34,8 +34,8 @@
 											</headerToolbar>
 											<content>
 												<VBox>
-													<CheckBox xmlns="sap.m" text="MPX" selected="false" id="box1"/> 
-													<CheckBox xmlns="sap.m" text="SPX" selected="false" id="box2"/> 
+													<CheckBox xmlns="sap.m" text="MPX" selected="false" id="box1"/>
+													<CheckBox xmlns="sap.m" text="SPX" selected="false" id="box2"/>
 												</VBox>
 											</content>
 										</Panel>
