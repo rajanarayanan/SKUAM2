@@ -9,8 +9,7 @@
 		<content>
 			<Bar ariaLabelledBy="__xmlview0--label3" id="bar0" design="SubHeader" busyIndicatorSize="Auto">
 				<contentLeft>
-				<Button type="Accept" text="{i18n>WorklistNewReqButton}" id="button0" icon="sap-icon://write-new-document" press="action" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" action:wiring="\{'press':\{'navigation':\{'routeName':'SKURequest'\}\}\}"/>
-				<Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="{i18n>ProgramVersionPopup}" id="button1" activeIcon="sap-icon://add-product" icon="sap-icon://add-product" tooltip="Add Program Versions" press="onProgramVersionPopup"/>
+				<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Accept" text="{i18n>WorklistNewReqButton}" id="button0" icon="sap-icon://write-new-document" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'SKURequest'\}\}\}"/>
 				</contentLeft>
 			<contentRight>
 			</contentRight>

@@ -1,71 +1,75 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:footerbar="sap.ushell.ui.footerbar" controllerName="skurequestapp.controller.Worklist">
 	<App id="idAppControl">
 		<pages>
-			<Page id="page" title="{i18n>worklistViewTitle}">
-				<headerContent>
-					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
-				</headerContent>
-				<content>
-					<Bar ariaLabelledBy="__xmlview0--label3" id="bar0" design="SubHeader" busyIndicatorSize="Auto">
-						<contentLeft>
-							<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Accept" text="{i18n>WorklistNewReqButton}" id="button0" icon="sap-icon://write-new-document"/>
-							<Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="{i18n>ProgramVersionPopup}" id="button1" activeIcon="sap-icon://add-product" icon="sap-icon://add-product" tooltip="Add Program Versions" press="onProgramVersionPopup"/>
-						</contentLeft>
-						<contentRight/>
-					</Bar>
-					<Table id="table" width="auto" class="sapUiResponsiveMargin" items="{ path: '/SkuRequestSet', sorter: { path: 'RequestId', descending: false } }" noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
-						<headerToolbar>
-							<Toolbar>
-								<Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
-								<ToolbarSpacer/>
-								<SearchField id="searchField" tooltip="{i18n>worklistSearchTooltip}" search="onSearch" width="auto"/>
-							</Toolbar>
-						</headerToolbar>
-						<columns>
-							<Column id="nameColumn1">
-								<Text text="{i18n>tableNameColumnTitle1}" id="nameColumnTitle1"/>
-							</Column>
-							<Column id="nameColumn2">
-								<Text text="{i18n>tableNameColumnTitle2}" id="nameColumnTitle2"/>
-							</Column>
-							<Column id="nameColumn3">
-								<Text text="{i18n>tableNameColumnTitle3}" id="nameColumnTitle3"/>
-							</Column>
-							<Column id="nameColumn4" minScreenWidth="Tablet">
-								<Text text="{i18n>tableNameColumnTitle4}" id="nameColumnTitle4"/>
-							</Column>
-							<Column id="nameColumn5" minScreenWidth="Tablet">
-								<Text text="{i18n>tableNameColumnTitle5}" id="nameColumnTitle5"/>
-							</Column>
-							<Column id="nameColumn6" minScreenWidth="Tablet">
-								<Text text="{i18n>tableNameColumnTitle6}" id="nameColumnTitle6"/>
-							</Column>
-						</columns>
-						<items>
-							<ColumnListItem type="Navigation" press="onPress">
-								<cells>
-									<ObjectIdentifier title="{RequestId}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{Requester}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{Status}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{CreatedOn}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{ProductType}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{ProductLine}"/>
-								</cells>
-							</ColumnListItem>
-						</items>
-					</Table>
-				</content>
-			</Page>
-		</pages>
+	<Page id="page" title="{i18n>worklistViewTitle}">
+		
+			<headerContent>
+			    <Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
+			</headerContent>
+		<content>
+			<Bar ariaLabelledBy="__xmlview0--label3" id="bar0" design="SubHeader" busyIndicatorSize="Auto">
+				<contentLeft>
+				<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Accept" text="{i18n>WorklistNewReqButton}" id="button0" icon="sap-icon://write-new-document" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'SKURequest'\}\}\}"/>
+				</contentLeft>
+			<contentRight>
+			</contentRight>
+			</Bar>
+			<Table id="table" width="auto" class="sapUiResponsiveMargin" items="{      path: '/SkuRequestSet',      sorter: {       path: 'RequestId',       descending: false      }     }" noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
+
+				<headerToolbar>
+					<Toolbar>
+						<Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
+						<ToolbarSpacer/>
+						<SearchField id="searchField" tooltip="{i18n>worklistSearchTooltip}" search="onSearch" width="auto">
+						</SearchField>
+					</Toolbar>
+				</headerToolbar>
+
+				<columns>
+					<Column id="nameColumn1">
+						<Text text="{i18n>tableNameColumnTitle1}" id="nameColumnTitle1"/>
+					</Column>
+					<Column id="nameColumn2">
+						<Text text="{i18n>tableNameColumnTitle2}" id="nameColumnTitle2"/>
+					</Column>
+					<Column id="nameColumn3">
+						<Text text="{i18n>tableNameColumnTitle3}" id="nameColumnTitle3"/>
+					</Column>
+					<Column id="nameColumn4" minScreenWidth="Tablet">
+						<Text text="{i18n>tableNameColumnTitle4}" id="nameColumnTitle4"/>
+					</Column>
+					<Column id="nameColumn5" minScreenWidth="Tablet">
+						<Text text="{i18n>tableNameColumnTitle5}" id="nameColumnTitle5"/>
+					</Column>
+					<Column id="nameColumn6" minScreenWidth="Tablet">
+						<Text text="{i18n>tableNameColumnTitle6}" id="nameColumnTitle6"/>
+					</Column>
+				</columns>
+
+				<items>
+					<ColumnListItem type="Navigation" press="onPress">
+						<cells>
+							<ObjectIdentifier title="{RequestId}"/>
+						</cells>
+						<cells>
+							<ObjectIdentifier title="{Requester}"/>
+						</cells>
+						<cells>
+							<ObjectIdentifier title="{Status}"/>
+						</cells>
+						<cells>
+							<ObjectIdentifier title="{CreatedOn}"/>
+						</cells>
+						<cells>
+							<ObjectIdentifier title="{ProductType}"/>
+						</cells>
+						<cells>
+							<ObjectIdentifier title="{ProductLine}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page></pages>
 	</App>
 </mvc:View>

@@ -39,10 +39,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -111,50 +108,39 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
-					"target": [
-						"notFound"
-					]
+					"target": ["notFound"]
 				},
 				"async": true
 			},
 			"routes": [{
 				"pattern": "",
 				"name": "worklist",
-				"target": [
-					"worklist"
-				]
+				"target": ["worklist"]
 			}, {
 				"pattern": "SkuRequestSet/{objectId}",
 				"name": "object",
-				"target": [
-					"object"
-				]
+				"target": ["object"]
 			}, {
 				"name": "Object_binded",
 				"pattern": "Object/{Id}",
-				"target": [
-					"object"
-				]
+				"target": ["object"]
 			}, {
-					"name": "SKURequest",
-					"pattern": "SKURequest",
-					"target": [
-						"SKURequest"
-						]
-        	}, {
-					"name": "Object",
-					"pattern": "Object",
-					"target": [
-						"object"
-					]
+				"name": "SKURequest",
+				"pattern": "SKURequest",
+				"target": ["SKURequest"]
 			}, {
-					"name": "ProgramVersions",
-					"pattern": "ProgramVersions",
-					"target": [
-						"ProgramVersions"
-					]
-				}
-			],
+				"name": "Object",
+				"pattern": "Object",
+				"target": ["object"]
+			}, {
+				"name": "ProgramVersions",
+				"pattern": "ProgramVersions",
+				"target": ["ProgramVersions"]
+			}, {
+				"name": "ProgramVersionPopup",
+				"pattern": "ProgramVersionPopup",
+				"target": ["ProgramVersionPopup"]
+			}],
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
@@ -184,6 +170,13 @@
 					"viewType": "XML",
 					"viewName": "ProgramVersions",
 					"viewLevel": 1,
+					"transition": "flip"
+				},
+				"ProgramVersionPopup": {
+					"viewType": "XML",
+					"viewName": "ProgramVersionPopup",
+					"title": "Program Versions",
+					"viewLevel": null,
 					"transition": "flip"
 				}
 			},

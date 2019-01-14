@@ -12,6 +12,9 @@
             "name": "Component.js"
         },
         {
+            "name": "Images/citrix-logo-black.png"
+        },
+        {
             "name": "controller/App-dbg.controller.js",
             "isDebug": true
         },
@@ -47,6 +50,20 @@
             "name": "controller/Object.controller.js"
         },
         {
+            "name": "controller/ProgramVersionPopup-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/ProgramVersionPopup.controller.js"
+        },
+        {
+            "name": "controller/SKURequest-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/SKURequest.controller.js"
+        },
+        {
             "name": "controller/Worklist-dbg.controller.js",
             "isDebug": true
         },
@@ -62,15 +79,6 @@
         },
         {
             "name": "di.code-validation.core_issues.json"
-        },
-        {
-            "name": "extended_runnable_file.html"
-        },
-        {
-            "name": "fioriHtmlRunner.html"
-        },
-        {
-            "name": "fragments/ProgramVersionPopup.fragment.xml"
         },
         {
             "name": "i18n/i18n.properties",
@@ -304,6 +312,9 @@
             "name": "tmp/Component.js"
         },
         {
+            "name": "tmp/Images/citrix-logo-black.png"
+        },
+        {
             "name": "tmp/controller/App.controller.js"
         },
         {
@@ -319,19 +330,16 @@
             "name": "tmp/controller/Object.controller.js"
         },
         {
+            "name": "tmp/controller/ProgramVersionPopup.controller.js"
+        },
+        {
+            "name": "tmp/controller/SKURequest.controller.js"
+        },
+        {
             "name": "tmp/controller/Worklist.controller.js"
         },
         {
             "name": "tmp/css/style.css"
-        },
-        {
-            "name": "tmp/extended_runnable_file.html"
-        },
-        {
-            "name": "tmp/fioriHtmlRunner.html"
-        },
-        {
-            "name": "tmp/fragments/ProgramVersionPopup.fragment.xml"
         },
         {
             "name": "tmp/i18n/i18n.properties",
@@ -479,6 +487,12 @@
             "name": "tmp/view/ObjectNotFound.view.xml"
         },
         {
+            "name": "tmp/view/ProgramVersionPopup.view.xml"
+        },
+        {
+            "name": "tmp/view/SKURequest.view.xml"
+        },
+        {
             "name": "tmp/view/Worklist.view.xml"
         },
         {
@@ -498,6 +512,12 @@
         },
         {
             "name": "tmp-dbg/controller/Object.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/ProgramVersionPopup.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/SKURequest.controller.js"
         },
         {
             "name": "tmp-dbg/controller/Worklist.controller.js"
@@ -582,6 +602,12 @@
         },
         {
             "name": "view/ObjectNotFound.view.xml"
+        },
+        {
+            "name": "view/ProgramVersionPopup.view.xml"
+        },
+        {
+            "name": "view/SKURequest.view.xml"
         },
         {
             "name": "view/Worklist.view.xml"

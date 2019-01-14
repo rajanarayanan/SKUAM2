@@ -1,154 +1,135 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
-    xmlns:f="sap.ui.layout.form"
-    xmlns:chart="sap.suite.ui.microchart"
-    controllerName="skurequestapp.controller.SKURequest"
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="skurequestapp.controller.SKURequest">
 	<App>
 		<pages>
 			<Page title="Hardware SKU Request Form" titleLevel="H1">
 				<headerContent>
-				  <Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px"
+						id="image0"/>
 				</headerContent>
 				<content>
-					<Panel >
+					<Panel>
 						<content>
 							<FlexBox alignItems="Center" justifyContent="Center">
-								<core:Icon src="sap-icon://warning2"></core:Icon>
-								<Text width="100%" text="This form is to be filled in its entirety by the SKU Requestor and formally submitted to MDM"></Text>
+								<core:Icon src="sap-icon://warning2"/>
+								<Text width="100%" text="This form is to be filled in its entirety by the SKU Requestor and formally submitted to MDM"/>
 							</FlexBox>
-							
 							<FlexBox alignItems="Center" justifyContent="Center">
-								<Button width="100%" text="General Information" type="Emphasized" enabled="false">	</Button>
-							</FlexBox>	
+								<Button width="100%" text="General Information" type="Emphasized" enabled="false"></Button>
+							</FlexBox>
 						</content>
-						
 					</Panel>
-					
 					<VBox>
 						<FlexBox renderType="Bare">
 							<items>
-								<Panel headerText="Request Information"  width="100%" class="sapUiSmallMarginEnd">
+								<Panel headerText="Request Information" width="100%" class="sapUiSmallMarginEnd">
 									<layoutData>
-										<FlexItemData growFactor="3" />
-									</layoutData>		
+										<FlexItemData growFactor="3"/>
+									</layoutData>
 									<headerToolbar>
 										<Toolbar>
-											<ToolbarSpacer width="20%"></ToolbarSpacer>
+											<ToolbarSpacer width="20%"/>
 											<Title level="H2" text="Request Information"/>
 										</Toolbar>
 									</headerToolbar>
 									<content>
-									<!--	<Text text="Request Type*" width="30%"></Text>
+										<!--	<Text text="Request Type*" width="30%"></Text>
 										<Switch customTextOff="New" customTextOn="Update" name="Request Type"></Switch>-->
-										<ComboBox placeholder="Product Type" width="100%"></ComboBox>
-										<ComboBox placeholder="Product Line" width="100%"></ComboBox>
-										<SearchField width="100%" placeholder="SKU Requestor" />
-										<Button text="Add Product" width="50%" type="Emphasized"></Button>
+										<ComboBox placeholder="Product Type" width="100%"/>
+										<ComboBox placeholder="Product Line" width="100%"/>
+										<SearchField width="100%" placeholder="SKU Requestor"/>
+										<Button text="Add Product" width="50%" type="Emphasized" press="action"
+											xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+											action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}"/>
 									</content>
 								</Panel>
-								
 								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
 									<layoutData>
-										<FlexItemData growFactor="2" />
-									</layoutData>	
+										<FlexItemData growFactor="2"/>
+									</layoutData>
 									<headerToolbar>
 										<Toolbar>
-											<ToolbarSpacer width="35%"></ToolbarSpacer>
-											<Title level="H2" text="Timelines" />
-										</Toolbar>
-									</headerToolbar>								
-									<content>
-										<DatePicker placeholder="Submitted Date" enabled="false" ></DatePicker>
-										<DatePicker placeholder="PND SKU List Requested Date" ></DatePicker>
-										<DatePicker placeholder="Requested Activation Date" ></DatePicker>
-									</content>
-								   <content>
-									 <Text />	
-								    </content>	
-								</Panel>	
-								
-								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
-									<layoutData>
-										<FlexItemData growFactor="2" />
-									</layoutData>	
-									<headerToolbar>
-										<Toolbar>
-											<ToolbarSpacer width="35%"></ToolbarSpacer>
-											<Title level="H2" text="% Completion" />
+											<ToolbarSpacer width="35%"/>
+											<Title level="H2" text="Timelines"/>
 										</Toolbar>
 									</headerToolbar>
 									<content>
-										<Text />
-									</content>	
-									<content>
-										<FlexBox alignItems="Center" justifyContent="Center" width="100%" >
-										    <core:InvisibleText  text="" />
-											<chart:RadialMicroChart size="L" percentage="70" valueColor="Neutral" />
-										</FlexBox>	
+										<DatePicker placeholder="Submitted Date" enabled="false"/>
+										<DatePicker placeholder="PND SKU List Requested Date"/>
+										<DatePicker placeholder="Requested Activation Date"/>
 									</content>
 									<content>
-									 <Text />	
-								    </content>
-								</Panel>							
-							
+										<Text/>
+									</content>
+								</Panel>
+								<Panel headerText="Timelines" width="100%" class="sapUiSmallMarginEnd">
+									<layoutData>
+										<FlexItemData growFactor="2"/>
+									</layoutData>
+									<headerToolbar>
+										<Toolbar>
+											<ToolbarSpacer width="35%"/>
+											<Title level="H2" text="% Completion"/>
+										</Toolbar>
+									</headerToolbar>
+									<content>
+										<Text/>
+									</content>
+									<content>
+										<FlexBox alignItems="Center" justifyContent="Center" width="100%">
+											<core:InvisibleText text=""/>
+											<chart:RadialMicroChart size="L" percentage="70" valueColor="Neutral"/>
+										</FlexBox>
+									</content>
+									<content>
+										<Text/>
+									</content>
+								</Panel>
 							</items>
-						</FlexBox>						
-
-						<TextArea placeholder="Request Background*" width="100%"></TextArea>
-
+						</FlexBox>
+						<TextArea placeholder="Request Background*" width="100%"/>
 						<Panel>
 							<content>
 								<FlexBox renderType="Bare">
 									<items>
-										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd">
 											<Toolbar>
-												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<ToolbarSpacer width="1%"/>
 												<Title level="H2" text="Final PAC Deck"/>
-											</Toolbar>										
+											</Toolbar>
 											<f:content>
 												<HBox>
-													<core:Icon src="sap-icon://document"></core:Icon>
-													<Link text="Click to add attachment"></Link>
+													<core:Icon src="sap-icon://document"/>
+													<Link text="Click to add attachment"/>
 												</HBox>
 											</f:content>
 										</f:SimpleForm>
-										
-										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd">
 											<Toolbar>
-												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<ToolbarSpacer width="1%"/>
 												<Title level="H2" text="Attachments"/>
-											</Toolbar>										
-											<f:content>
-											</f:content>
-										</f:SimpleForm>		
-										
-										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd" >
+											</Toolbar>
+											<f:content></f:content>
+										</f:SimpleForm>
+										<f:SimpleForm width="100%" class="sapUiSmallMarginEnd">
 											<Toolbar>
-												<ToolbarSpacer width="1%"></ToolbarSpacer>
+												<ToolbarSpacer width="1%"/>
 												<Title level="H2" text="PLR Approval"/>
-											</Toolbar>											
+											</Toolbar>
 											<f:content>
-												<Button text="PLR Approval Link"></Button>
+												<Button text="PLR Approval Link"/>
 											</f:content>
-										</f:SimpleForm>								
-						
+										</f:SimpleForm>
 									</items>
-		
-								</FlexBox>	
+								</FlexBox>
 							</content>
 						</Panel>
-
-
 						<FlexBox width="100%" alignItems="End" justifyContent="End">
-							<Button text="CANCEL" type="Emphasized"></Button>
-							<Button text="NEXT" type="Emphasized"></Button>
-						</FlexBox>	
-
-					
+							<Button text="CANCEL" type="Emphasized"/>
+							<Button text="NEXT" type="Emphasized"/>
+						</FlexBox>
 					</VBox>
-					
 				</content>
-				
 			</Page>
 		</pages>
 	</App>
