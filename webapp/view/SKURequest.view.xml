@@ -1,4 +1,4 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="skurequestapp.controller.SKURequest">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="zskuapp.controller.SKURequest">
 	<App>
 		<pages>
 			<Page title="Hardware SKU Request Form" titleLevel="H1">

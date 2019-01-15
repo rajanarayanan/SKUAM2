@@ -1,9 +1,9 @@
 /*global location*/
 sap.ui.define([
-		"skurequestapp/controller/BaseController",
+		"zskuapp/controller/BaseController",
 		"sap/ui/model/json/JSONModel",
 		"sap/ui/core/routing/History",
-		"skurequestapp/model/formatter"
+		"zskuapp/model/formatter"
 	], function (
 		BaseController,
 		JSONModel,
@@ -12,7 +12,7 @@ sap.ui.define([
 	) {
 		"use strict";
 
-		return BaseController.extend("skurequestapp.controller.Object", {
+		return BaseController.extend("zskuapp.controller.Object", {
 
 			formatter: formatter,
 

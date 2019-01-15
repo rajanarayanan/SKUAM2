@@ -1,14 +1,14 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 	"use strict";
-	return Controller.extend("skurequestapp.controller.SKURequest", {
+	return Controller.extend("zskuapp.controller.SKURequest", {
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
-		 * @memberOf skurequestapp.view.SKURequest
+		 * @memberOf zskuapp.view.SKURequest
 		 */
 		onInit: function () {},
 		/**
-		 *@memberOf skurequestapp.controller.SKURequest
+		 *@memberOf zskuapp.controller.SKURequest
 		 */
 		action: function (oEvent) {
 			var that = this;

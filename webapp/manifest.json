@@ -1,7 +1,7 @@
 {
 	"_version": "1.5.0",
 	"sap.app": {
-		"id": "skurequestapp",
+		"id": "zskuapp",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
@@ -46,7 +46,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "skurequestapp.view.App",
+			"viewName": "zskuapp.view.App",
 			"type": "XML",
 			"id": "app"
 		},
@@ -75,7 +75,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "skurequestapp.i18n.i18n"
+					"bundleName": "zskuapp.i18n.i18n"
 				}
 			},
 			"": {
@@ -109,7 +109,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "skurequestapp.view",
+				"viewPath": "zskuapp.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
@@ -217,7 +217,7 @@
 				}
 			},
 			"additionalData": {
-				"skurequestapp.view.Object": {
+				"zskuapp.view.Object": {
 					"routeName": "Object_binded",
 					"entitySet": "/SkuRequestSet"
 				}
@@ -225,7 +225,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zskureqapp/webapp",
+		"uri": "/sap/bc/ui5_ui5/sap/zskuapp/webapp",
 		"_version": "1.1.0"
 	}
 }

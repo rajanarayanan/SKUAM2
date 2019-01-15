@@ -1,10 +1,10 @@
 sap.ui.define([
-		"skurequestapp/controller/BaseController",
+		"zskuapp/controller/BaseController",
 		"sap/ui/model/json/JSONModel"
 	], function (BaseController, JSONModel) {
 		"use strict";
 
-		return BaseController.extend("skurequestapp.controller.App", {
+		return BaseController.extend("zskuapp.controller.App", {
 
 			onInit : function () {
 				var oViewModel,

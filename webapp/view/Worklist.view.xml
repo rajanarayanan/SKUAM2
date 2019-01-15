@@ -1,5 +1,5 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
-	xmlns:footerbar="sap.ushell.ui.footerbar" controllerName="skurequestapp.controller.Worklist">
+	xmlns:footerbar="sap.ushell.ui.footerbar" controllerName="zskuapp.controller.Worklist">
 	<App id="idAppControl">
 		<pages>
 			<Page id="page" title="{i18n>worklistViewTitle}">

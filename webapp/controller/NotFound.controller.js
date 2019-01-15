@@ -1,9 +1,9 @@
 sap.ui.define([
-		"skurequestapp/controller/BaseController"
+		"zskuapp/controller/BaseController"
 	], function (BaseController) {
 		"use strict";
 
-		return BaseController.extend("skurequestapp.controller.NotFound", {
+		return BaseController.extend("zskuapp.controller.NotFound", {
 
 			/**
 			 * Navigates to the worklist when the link is pressed
