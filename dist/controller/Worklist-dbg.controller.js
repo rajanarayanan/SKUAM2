@@ -10,12 +10,6 @@ sap.ui.define([
 	"use strict";
 	return BaseController.extend("zskuapp.controller.Worklist", {
 		formatter: formatter,
-		/*	
-			config : {
-				"favIcon" : "https://www.citrix.com/etc/designs/citrix-dotcom/icon-favicon.png",
-				"shortcut icon" : "https://www.citrix.com/etc/designs/citrix-dotcom/icon-favicon.png"
-			},
-			*/
 		/* =========================================================== */
 		/* lifecycle methods                                           */
 		/* =========================================================== */

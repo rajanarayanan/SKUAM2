@@ -71,6 +71,13 @@
             "name": "controller/Worklist.controller.js"
         },
         {
+            "name": "controller/primarySkuList-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/primarySkuList.controller.js"
+        },
+        {
             "name": "css/style-dbg.css",
             "isDebug": true
         },
@@ -339,6 +346,9 @@
             "name": "tmp/controller/Worklist.controller.js"
         },
         {
+            "name": "tmp/controller/primarySkuList.controller.js"
+        },
+        {
             "name": "tmp/css/style.css"
         },
         {
@@ -496,6 +506,9 @@
             "name": "tmp/view/Worklist.view.xml"
         },
         {
+            "name": "tmp/view/primarySkuList.view.xml"
+        },
+        {
             "name": "tmp-dbg/Component.js"
         },
         {
@@ -521,6 +534,9 @@
         },
         {
             "name": "tmp-dbg/controller/Worklist.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/primarySkuList.controller.js"
         },
         {
             "name": "tmp-dbg/css/style.css"
@@ -611,6 +627,9 @@
         },
         {
             "name": "view/Worklist.view.xml"
+        },
+        {
+            "name": "view/primarySkuList.view.xml"
         }
     ]
 }

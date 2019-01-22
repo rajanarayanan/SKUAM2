@@ -131,7 +131,14 @@
 					"pattern": "SkuRequestSet/{objectId}",
 					"name": "object",
 					"target": [
-						"object"
+						"SKURequest"
+					]
+				},
+				{
+					"pattern": "SkuRequestSet/{objectId}/PrimarySkuListSet",
+					"name": "PrimarySkuList",
+					"target": [
+						"PrimarySkuList"
 					]
 				},
 				{
@@ -214,6 +221,10 @@
 					"title": "",
 					"viewLevel": 1,
 					"transition": "flip"
+				},
+				"primarySkuList": {
+					"viewType": "XML",
+					"viewName": "primarySkuList"
 				}
 			},
 			"additionalData": {
