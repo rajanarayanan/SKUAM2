@@ -128,7 +128,7 @@
 						<Button type="Reject" text="Cancel" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
-						<Button type="Accept" text="Next">
+						<Button type="Accept" text="Next" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'primarySkuList'\}\}\}" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 					</OverflowToolbar>
