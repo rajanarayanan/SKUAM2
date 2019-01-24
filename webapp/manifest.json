@@ -182,6 +182,13 @@
 					"target": [
 						"ProgramVersionPopup"
 					]
+				},
+				{
+					"name": "primarySkuList",
+					"pattern": "primarySkuList",
+					"target": [
+						"primarySkuList"
+					]
 				}
 			],
 			"targets": {

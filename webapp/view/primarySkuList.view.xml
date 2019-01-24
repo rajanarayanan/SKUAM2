@@ -2,8 +2,84 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Title">
-				<content></content>
+			<Page title="{i18n>primarySkuListTitle}">
+				<headerContent>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px"
+						id="image0"/>
+				</headerContent>
+				<content>
+					<Table id="table" width="auto" class="sapUiResponsiveMargin"
+						items="{ path: '/PrimarySkuListSet', sorter: { path: 'Id', descending: false } }" noDataText="{worklistView>/tableNoDataText}"
+						busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
+						<headerToolbar>
+							<Toolbar>
+								<Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
+								<ToolbarSpacer/>
+								<SearchField id="searchField" tooltip="{i18n>worklistSearchTooltip}" search="onSearch" width="auto"></SearchField>
+							</Toolbar>
+						</headerToolbar>
+						<columns>
+							<Column id="nameColumn1">
+								<Text text="{i18n>PrimarySkuListSetColumnTitle1}" id="nameColumnTitle1"/>
+							</Column>
+							<Column id="nameColumn2">
+								<Text text="{i18n>PrimarySkuListSetColumnTitle2}" id="nameColumnTitle2"/>
+							</Column>
+							<Column id="nameColumn3">
+								<Text text="{i18n>PrimarySkuListSetColumnTitle3}" id="nameColumnTitle3"/>
+							</Column>
+							<Column id="nameColumn4" minScreenWidth="Tablet">
+								<Text text="{i18n>PrimarySkuListSetColumnTitle4}" id="nameColumnTitle4"/>
+							</Column>
+							<Column id="nameColumn5" minScreenWidth="Tablet">
+								<Text text="{i18n>PrimarySkuListSetColumnTitle5}" id="nameColumnTitle5"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<ObjectIdentifier title="{PltEditionId}"/>
+								</cells>
+								<cells>
+									<ObjectIdentifier title="{Srp} {Curr}"/>
+								</cells>
+								<cells>
+									<HBox>
+										<Button text="ADD" type="Emphasized"/>
+									</HBox>
+									<!--<ObjectIdentifier title="{LicCompsId}"/>-->
+								</cells>
+								<cells>
+									<ObjectIdentifier title="Component"/>
+								</cells>
+								<cells>
+									<HBox>
+										<Switch state="true" customTextOn=" " customTextOff=" ">
+											<layoutData>
+												<FlexItemData growFactor="1"/>
+											</layoutData>
+										</Switch>
+									</HBox>
+									<!--<ObjectIdentifier title="{Spare}"/>-->
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Reject" text="Cancel" press="onBack">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Accept" text="Previous" press="onBack">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Accept" text="Next" press="action">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>
