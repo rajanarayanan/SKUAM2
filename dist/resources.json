@@ -64,6 +64,13 @@
             "name": "controller/SKURequest.controller.js"
         },
         {
+            "name": "controller/UpgradeRequestPopup-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/UpgradeRequestPopup.controller.js"
+        },
+        {
             "name": "controller/Worklist-dbg.controller.js",
             "isDebug": true
         },
@@ -343,6 +350,9 @@
             "name": "tmp/controller/SKURequest.controller.js"
         },
         {
+            "name": "tmp/controller/UpgradeRequestPopup.controller.js"
+        },
+        {
             "name": "tmp/controller/Worklist.controller.js"
         },
         {
@@ -503,6 +513,9 @@
             "name": "tmp/view/SKURequest.view.xml"
         },
         {
+            "name": "tmp/view/UpgradeRequestPopup.view.xml"
+        },
+        {
             "name": "tmp/view/Worklist.view.xml"
         },
         {
@@ -531,6 +544,9 @@
         },
         {
             "name": "tmp-dbg/controller/SKURequest.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/UpgradeRequestPopup.controller.js"
         },
         {
             "name": "tmp-dbg/controller/Worklist.controller.js"
@@ -624,6 +640,9 @@
         },
         {
             "name": "view/SKURequest.view.xml"
+        },
+        {
+            "name": "view/UpgradeRequestPopup.view.xml"
         },
         {
             "name": "view/Worklist.view.xml"

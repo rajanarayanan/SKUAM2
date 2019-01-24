@@ -35,7 +35,7 @@
 				},
 				applications: {
 					"SKURequestApplication-display": {
-						additionalInformation: "SAPUI5.Component=skurequestapp",
+						additionalInformation: "SAPUI5.Component=zskuapp",
 						applicationType: "URL",
 						url: "../",
 						title: "SKU Request Application"
@@ -52,7 +52,7 @@
 			data-sap-ui-libs="sap.ushell, sap.collaboration, sap.m, sap.ui.layout"
 			data-sap-ui-theme="sap_belize"
 			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"skurequestapp": "../"}'
+			data-sap-ui-resourceroots='{"zskuapp": "../"}'
 			data-sap-ui-frameOptions='allow'> 	// NON-SECURE setting for testing environment
 		</script>
 
@@ -60,7 +60,7 @@
 			sap.ui.getCore().attachInit(function() {
 
 				sap.ui.require([
-					"skurequestapp/localService/mockserver"
+					"zskuapp/localService/mockserver"
 				], function (mockserver) {
 					// set up test service for local testing
 					mockserver.init();

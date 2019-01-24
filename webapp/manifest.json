@@ -182,6 +182,13 @@
 					"target": [
 						"ProgramVersionPopup"
 					]
+				},
+				{
+					"name": "UpgradeRequestPopup",
+					"pattern": "UpgradeRequestPopup",
+					"target": [
+						"UpgradeRequestPopup"
+					]
 				}
 			],
 			"targets": {
@@ -225,6 +232,10 @@
 				"primarySkuList": {
 					"viewType": "XML",
 					"viewName": "primarySkuList"
+				},
+				"UpgradeRequestPopup": {
+					"viewType": "XML",
+					"viewName": "UpgradeRequestPopup"
 				}
 			},
 			"additionalData": {
