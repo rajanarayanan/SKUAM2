@@ -15,10 +15,14 @@ sap.ui.define([
 					return "";
 				}
 				return parseFloat(sValue).toFixed(2);
-			}
-			//INSERT DATE FORMAT: From TIMESTAMP to MM/DD/YYYY
+			},
 			
-
+			//INSERT DATE FORMAT: From TIMESTAMP to MM/DD/YYYY
+			dateTime : function(sValue) {
+			 var nDate = new Date(sValue);
+			 return (nDate.getMonth()+1) + "/" + nDate.getDate() +"/"+ nDate.getFullYear()+ " " + nDate.toTimeString().substring(0,8);
+			}
+			
 		};
 
 	}

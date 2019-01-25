@@ -190,6 +190,7 @@
 						"UpgradeRequestPopup"
        ]
 				},
+				{
 					"name": "primarySkuList",
 					"pattern": "primarySkuList",
 					"target": [

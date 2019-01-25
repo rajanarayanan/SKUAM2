@@ -1,5 +1,5 @@
 sap.ui.define([
-		"skurequestapp/controller/App.controller",
+		"zskuapp/controller/App.controller",
 		"sap/ui/core/Control",
 		"sap/ui/core/mvc/Controller",
 		"sap/ui/model/json/JSONModel",

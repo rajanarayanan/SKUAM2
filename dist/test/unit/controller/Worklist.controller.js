@@ -1,6 +1,6 @@
 sap.ui.define([
-		"skurequestapp/controller/Worklist.controller",
-		"skurequestapp/controller/BaseController",
+		"zskuapp/controller/Worklist.controller",
+		"zskuapp/controller/BaseController",
 		"sap/ui/base/ManagedObject",
 		"test/unit/helper/FakeI18nModel",
 		"sap/ui/thirdparty/sinon",
