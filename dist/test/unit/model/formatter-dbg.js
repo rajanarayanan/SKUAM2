@@ -1,5 +1,5 @@
 sap.ui.define([
-		"skurequestapp/model/formatter"
+		"zskuapp/model/formatter"
 	], function (formatter) {
 		"use strict";
 

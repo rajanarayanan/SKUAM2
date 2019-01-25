@@ -184,10 +184,18 @@
 					]
 				},
 				{
+					"name": "UpgradeRequestPopup",
+					"pattern": "UpgradeRequestPopup",
+					"target": [
+						"UpgradeRequestPopup"
+       ]
+				},
+				{
 					"name": "primarySkuList",
 					"pattern": "primarySkuList",
 					"target": [
 						"primarySkuList"
+
 					]
 				}
 			],
@@ -232,6 +240,10 @@
 				"primarySkuList": {
 					"viewType": "XML",
 					"viewName": "primarySkuList"
+				},
+				"UpgradeRequestPopup": {
+					"viewType": "XML",
+					"viewName": "UpgradeRequestPopup"
 				}
 			},
 			"additionalData": {

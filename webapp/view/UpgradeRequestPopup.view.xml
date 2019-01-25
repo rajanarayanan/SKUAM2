@@ -1,0 +1,97 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="zskuapp.controller.UpgradeRequestPopup">
+	<App>
+		<pages>
+			<Page title="{i18n>UpgradePopupTitle}">
+				<content>
+					<Panel>
+						<content>
+							<VBox>
+								<FlexBox renderType="Bare">
+									<items>
+										<Panel headerText="SKU List" width="30%" class="sapUiSmallMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+											<headerToolbar>
+												<Toolbar>
+													<Title level="H2" text="SKU List"/>
+												</Toolbar>
+											</headerToolbar>
+											<content>
+												<SearchField width="100%" placeholder="Citrix NetScaler 8003 Std"/>
+												<!--<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Add From" width="50%" type="Emphasized" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}" id="buttonaddfrom"/>
+												<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Add To" width="50%" type="Emphasized" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}" id="buttonaddto"/> -->
+												<Table noDataText="No Data found" id="table1">
+													<items>
+														<ColumnListItem type="Active" id="item1">
+															<cells>
+																<RadioButton xmlns="sap.m" groupName="GroupA" id="button2"/>
+																<Text id="text41" text="Citrix Netscaler MPX 8005 Standard"/>
+															</cells>
+														</ColumnListItem>
+														<ColumnListItem type="Active" id="item2">
+															<cells><RadioButton xmlns="sap.m" groupName="GroupA" id="button3"/>
+																<Text id="text42" text="Citrix Netscaler MPX 8005 Enterprise"/>
+															</cells>
+														</ColumnListItem>
+														<ColumnListItem type="Active" id="item3">
+															<cells>
+																<RadioButton xmlns="sap.m" groupName="GroupA" id="button4"/>
+																<Text id="text43" text="Citrix Netscaler MPX 8005 Platinum"/>
+															</cells>
+														</ColumnListItem>
+														<ColumnListItem type="Active" id="item4">
+															<cells>
+																<RadioButton xmlns="sap.m" groupName="GroupA" id="button5"/>
+																<Text id="text44" text="Citrix Netscaler SDX 8005 "/>
+															</cells>
+														</ColumnListItem>
+														<ColumnListItem type="Active" id="item5">
+															<cells>
+																<RadioButton xmlns="sap.m" groupName="GroupA" id="button6"/>
+																<Text id="text45" text="Citrix Netscaler MPX 8003 Standard"/>
+															</cells>
+														</ColumnListItem>
+													</items>
+													<columns>
+														<Column id="column3"/>
+														<Column id="column4"/>
+													</columns>
+												</Table>
+											</content>
+										</Panel>
+										<Panel headerText="Upgrade SKU List" width="70%" class="sapUiSmallMarginEnd">
+											<layoutData>
+												<FlexItemData growFactor="2"/>
+											</layoutData>
+											<headerToolbar>
+												<Toolbar>
+													<Title level="H2" text="Upgrade SKU List"/>
+												</Toolbar>
+											</headerToolbar>
+											<content>
+					
+											</content>
+										</Panel>
+									</items>
+								</FlexBox>
+							</VBox>
+						</content>
+					</Panel>
+				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Accept" text="OK">
+							<layoutData><OverflowToolbarLayoutData/></layoutData>
+						</Button>
+						<Button type="Reject" text="Cancel">
+							<layoutData><OverflowToolbarLayoutData/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
