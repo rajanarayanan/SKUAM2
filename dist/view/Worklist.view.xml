@@ -57,7 +57,7 @@
 									<ObjectIdentifier title="{Status}"/>
 								</cells>
 								<cells>
-									<ObjectIdentifier title="{CreatedOn}"/>
+									<ObjectIdentifier title="{ path: 'CreatedOn', formatter: '.formatter.dateTime' }"/>
 								</cells>
 								<cells>
 									<ObjectIdentifier title="{ProductType}"/>
