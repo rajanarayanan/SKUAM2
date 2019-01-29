@@ -1,4 +1,8 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="zskuapp.controller.primarySkuList">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    	xmlns:u="sap.ui.unified"
+    	xmlns:t="sap.ui.table"
+    	controllerName="zskuapp.controller.primarySkuList"
+	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
 			<Page title="{i18n>primarySkuListTitle}">
@@ -6,55 +10,56 @@
 					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
 				</headerContent>
 				<content>
-					<Table id="table" width="auto" class="sapUiResponsiveMargin" items="{ path: '/PrimarySkuListSet', sorter: { path: 'Id', descending: false } }" noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
-						<columns>
-							<Column id="nameColumn1">
-								<Text text="{i18n>PrimarySkuListSetColumnTitle1}" id="nameColumnTitle1"/>
-							</Column>
-							<Column id="nameColumn2">
-								<Text text="{i18n>PrimarySkuListSetColumnTitle2}" id="nameColumnTitle2"/>
-							</Column>
-							<Column id="nameColumn3">
-								<Text text="{i18n>PrimarySkuListSetColumnTitle3}" id="nameColumnTitle3"/>
-							</Column>
-							<Column id="nameColumn4" minScreenWidth="Tablet">
-								<Text text="{i18n>PrimarySkuListSetColumnTitle4}" id="nameColumnTitle4"/>
-							</Column>
-							<Column id="nameColumn5" minScreenWidth="Tablet">
-								<Text text="{i18n>PrimarySkuListSetColumnTitle5}" id="nameColumnTitle5"/>
-							</Column>
-						</columns>
-						<items>
-							<ColumnListItem>
-								<cells>
-									<ObjectIdentifier title="{PltEditionId}"/>
-								</cells>
-								<cells>
-									<ObjectIdentifier title="{Srp} {Curr}"/>
-								</cells>
-								<cells>
-									<HBox>
-										<Button text="ADD" type="Emphasized"/>
-									</HBox>
-									<!--<ObjectIdentifier title="{LicCompsId}"/>-->
-								</cells>
-								<cells>
-									<ObjectIdentifier title="Component"/>
-								</cells>
-								<cells>
-									<HBox>
-										<Switch state="true" customTextOn=" " customTextOff=" ">
+					<t:Table
+    				width="auto"
+    				noData="{worklistView>/tableNoDataText}"
+    				rows="{/PrimarySkuListSet}"
+    				selectionMode="None"
+    				class="sapUiResponsiveMargin"
+    				enableColumnReordering="false"
+    				busyIndicatorDelay="{worklistView>/tableBusyDelay}" 
+    				visibleRowCountMode="Auto">
+    				<t:columns>
+    					<t:Column>
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle1}" />
+    						<t:template>
+    							<Text text="{PltEditionId}"/>
+    						</t:template>
+    					</t:Column>
+    					<t:Column>
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle2}" />
+    						<t:template>
+    							<u:Currency value="{srp}" currency="{Curr}"/>
+    						</t:template>
+    					</t:Column>
+    					<t:Column width="10rem" hAlign="Center">
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle3}" />
+    						<t:template>
+    							<Button text="ADD" type="Emphasized"  
+    							xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" 
+    							press="action" 
+    							action:wiring="\{'press':\{'navigation':\{'routeName':'LicenseComponents'\}\}\}"/>
+    						</t:template>
+    					</t:Column>
+    					<t:Column>
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle4}" />
+    						<t:template>
+    							<Text text="Component" />
+    						</t:template>
+    					</t:Column>
+    					<t:Column width="6rem" hAlign="Center">
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle5}" />
+    						<t:template>
+    							<Switch state="true" customTextOn=" " customTextOff=" ">
 											<layoutData>
 												<FlexItemData growFactor="1"/>
 											</layoutData>
-										</Switch>
-									</HBox>
-									<!--<ObjectIdentifier title="{Spare}"/>-->
-								</cells>
-							</ColumnListItem>
-						</items>
-					</Table>
-					<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Define Upgrade Paths" type="Emphasized" id="button5" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'UpgradeRequestPopup'\}\}\}"/>
+								</Switch>
+    						</t:template>
+    					</t:Column>
+    				</t:columns>
+    			</t:Table>
+				<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Define Upgrade Paths" type="Emphasized" id="button5" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'UpgradeRequestPopup'\}\}\}"/>
 				</content>
 				<footer>
 					<OverflowToolbar id="otbFooter">
