@@ -112,9 +112,6 @@
             "name": "extended_runnable_file.html"
         },
         {
-            "name": "fioriHtmlRunner.html"
-        },
-        {
             "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
@@ -395,9 +392,6 @@
         },
         {
             "name": "tmp/extended_runnable_file.html"
-        },
-        {
-            "name": "tmp/fioriHtmlRunner.html"
         },
         {
             "name": "tmp/i18n/i18n.properties",
