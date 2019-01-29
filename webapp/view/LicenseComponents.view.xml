@@ -1,0 +1,87 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zskuapp.controller.LicenseComponents"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>LicenseComponent}">
+				<content>
+					<Panel xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="panel4">
+						<content>
+							<VBox id="vbox1">
+								<FlexBox renderType="Bare">
+									<Panel headerText="Add/Edit" width="25%">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+										<headerToolbar>
+											<Toolbar>
+												<Title level="H2" text="Add/Edit"/>
+											</Toolbar>
+										</headerToolbar>
+										<content class="sapUiMediumMargin">
+											<HBox>
+												<Input xmlns="sap.m" id="inputSkuID" placeholder="SKU Number"/>
+												<Input xmlns="sap.m" id="inputSkuDesc" placeholder="SKU Description"/>
+												<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:chart="sap.suite.ui.microchart"
+													xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+													text="Add New" width="90px" type="Emphasized" press="action"
+													action:wiring="\{'press':\{'navigation':\{'routeName':'ProgramVersionPopup'\}\}\}" id="buttonAddLC"/>
+											</HBox>
+										</content>
+									</Panel>
+								</FlexBox>
+								<Panel headerText="View" width="100%" class="sapUiSmallMarginEnd">
+									<content>
+										<Table noDataText="{worklistView>/tableNoDataText}" id="ComponentsTable">
+											<columns>
+												<Column id="column0" width="50%">
+													<header>
+														<Label text="Components" id="label0"/>
+													</header>
+												</Column>
+												<Column id="column1">
+													<header>
+														<Label text="Quantity" id="label1"/>
+													</header>
+												</Column>
+												<Column xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="column1_copy2">
+													<header>
+														<Label text="SKU" id="label1_copy2"/>
+													</header>
+												</Column>
+												<Column id="column2">
+													<header>
+														<Label text="Action" id="label2"/>
+													</header>
+												</Column>
+											</columns>
+											<items>
+												<ColumnListItem type="Active" id="item0">
+													<cells>
+														<Text id="text4" text="8005 (2x10GE BASE-X SFP+ &amp; 6x10/100/1000 copper);SFP+SFP Sold Separately"/>
+														<Text text="1" id="text5"/>
+														<Text xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" text="SKU12345"
+															id="text5_copy"/>
+														<Button xmlns="sap.m" id="button0" icon="sap-icon://delete"/>
+													</cells>
+												</ColumnListItem>
+											</items>
+										</Table>
+									</content>
+								</Panel>
+								<items/>
+							</VBox>
+						</content>
+					</Panel>
+				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Reject" text="Back" press="onBack">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

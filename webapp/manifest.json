@@ -39,10 +39,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -89,11 +86,9 @@
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		},
 		"services": {
 			"ShellUIService": {
@@ -113,92 +108,59 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
-					"target": [
-						"notFound"
-					]
+					"target": ["notFound"]
 				},
 				"async": true
 			},
-			"routes": [
-				{
-					"pattern": "",
-					"name": "worklist",
-					"target": [
-						"worklist"
-					]
-				},
-				{
-					"pattern": "SkuRequestSet/{objectId}",
-					"name": "object",
-					"target": [
-						"SKURequest"
-					]
-				},
-				{
-					"pattern": "SkuRequestSet/{objectId}/PrimarySkuListSet",
-					"name": "PrimarySkuList",
-					"target": [
-						"PrimarySkuList"
-					]
-				},
-				{
-					"name": "Object_binded",
-					"pattern": "Object/{Id}",
-					"target": [
-						"object"
-					]
-				},
-				{
-					"name": "SKURequest",
-					"pattern": "SKURequest",
-					"target": [
-						"SKURequest"
-					]
-				},
-				{
-					"name": "Object",
-					"pattern": "Object",
-					"target": [
-						"object"
-					]
-				},
-				{
-					"name": "ProgramVersions",
-					"pattern": "ProgramVersions",
-					"target": [
-						"ProgramVersions"
-					]
-				},
-				{
-					"name": "Worklist",
-					"pattern": "Worklist",
-					"target": [
-						"worklist"
-					]
-				},
-				{
-					"name": "ProgramVersionPopup",
-					"pattern": "ProgramVersionPopup",
-					"target": [
-						"ProgramVersionPopup"
-					]
-				},
-				{
-					"name": "UpgradeRequestPopup",
-					"pattern": "UpgradeRequestPopup",
-					"target": [
-						"UpgradeRequestPopup"
-       ]
-				},
-				{
-					"name": "primarySkuList",
-					"pattern": "primarySkuList",
-					"target": [
-						"primarySkuList"
-
-					]
-				}
-			],
+			"routes": [{
+				"pattern": "",
+				"name": "worklist",
+				"target": ["worklist"]
+			}, {
+				"pattern": "SkuRequestSet/{objectId}",
+				"name": "object",
+				"target": ["SKURequest"]
+			}, {
+				"pattern": "SkuRequestSet/{objectId}/PrimarySkuListSet",
+				"name": "PrimarySkuList",
+				"target": ["PrimarySkuList"]
+			}, {
+				"name": "Object_binded",
+				"pattern": "Object/{Id}",
+				"target": ["object"]
+			}, {
+				"name": "SKURequest",
+				"pattern": "SKURequest",
+				"target": ["SKURequest"]
+			}, {
+				"name": "Object",
+				"pattern": "Object",
+				"target": ["object"]
+			}, {
+				"name": "ProgramVersions",
+				"pattern": "ProgramVersions",
+				"target": ["ProgramVersions"]
+			}, {
+				"name": "Worklist",
+				"pattern": "Worklist",
+				"target": ["worklist"]
+			}, {
+				"name": "ProgramVersionPopup",
+				"pattern": "ProgramVersionPopup",
+				"target": ["ProgramVersionPopup"]
+			}, {
+				"name": "UpgradeRequestPopup",
+				"pattern": "UpgradeRequestPopup",
+				"target": ["UpgradeRequestPopup"]
+			}, {
+				"name": "primarySkuList",
+				"pattern": "primarySkuList",
+				"target": ["primarySkuList"]
+			}, {
+				"name": "LicenseComponents",
+				"pattern": "LicenseComponents",
+				"target": ["LicenseComponents"]
+			}],
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
@@ -244,6 +206,11 @@
 				"UpgradeRequestPopup": {
 					"viewType": "XML",
 					"viewName": "UpgradeRequestPopup"
+				},
+				"LicenseComponents": {
+					"viewType": "XML",
+					"viewName": "LicenseComponents",
+					"transition": "flip"
 				}
 			},
 			"additionalData": {

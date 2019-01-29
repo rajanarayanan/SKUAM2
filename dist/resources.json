@@ -36,6 +36,13 @@
             "name": "controller/ErrorHandler.js"
         },
         {
+            "name": "controller/LicenseComponents-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/LicenseComponents.controller.js"
+        },
+        {
             "name": "controller/NotFound-dbg.controller.js",
             "isDebug": true
         },
@@ -48,6 +55,13 @@
         },
         {
             "name": "controller/Object.controller.js"
+        },
+        {
+            "name": "controller/PrimarySku-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/PrimarySku.controller.js"
         },
         {
             "name": "controller/ProgramVersionPopup-dbg.controller.js",
@@ -93,6 +107,9 @@
         },
         {
             "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "extended_runnable_file.html"
         },
         {
             "name": "i18n/i18n.properties",
@@ -338,10 +355,16 @@
             "name": "tmp/controller/ErrorHandler.js"
         },
         {
+            "name": "tmp/controller/LicenseComponents.controller.js"
+        },
+        {
             "name": "tmp/controller/NotFound.controller.js"
         },
         {
             "name": "tmp/controller/Object.controller.js"
+        },
+        {
+            "name": "tmp/controller/PrimarySku.controller.js"
         },
         {
             "name": "tmp/controller/ProgramVersionPopup.controller.js"
@@ -360,6 +383,9 @@
         },
         {
             "name": "tmp/css/style.css"
+        },
+        {
+            "name": "tmp/extended_runnable_file.html"
         },
         {
             "name": "tmp/i18n/i18n.properties",
@@ -498,6 +524,9 @@
             "name": "tmp/view/App.view.xml"
         },
         {
+            "name": "tmp/view/LicenseComponents.view.xml"
+        },
+        {
             "name": "tmp/view/NotFound.view.xml"
         },
         {
@@ -534,10 +563,16 @@
             "name": "tmp-dbg/controller/ErrorHandler.js"
         },
         {
+            "name": "tmp-dbg/controller/LicenseComponents.controller.js"
+        },
+        {
             "name": "tmp-dbg/controller/NotFound.controller.js"
         },
         {
             "name": "tmp-dbg/controller/Object.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/PrimarySku.controller.js"
         },
         {
             "name": "tmp-dbg/controller/ProgramVersionPopup.controller.js"
@@ -625,6 +660,9 @@
         },
         {
             "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/LicenseComponents.view.xml"
         },
         {
             "name": "view/NotFound.view.xml"
