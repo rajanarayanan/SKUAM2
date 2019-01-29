@@ -166,7 +166,8 @@
 					"viewName": "Worklist",
 					"viewId": "worklist",
 					"viewLevel": 1,
-					"title": "{i18n>worklistViewTitle}"
+					"title": "{i18n>worklistViewTitle}",
+					"transition": "slide"
 				},
 				"object": {
 					"viewName": "Object",
@@ -190,7 +191,7 @@
 					"viewType": "XML",
 					"viewName": "ProgramVersions",
 					"viewLevel": 1,
-					"transition": "flip"
+					"transition": "slide"
 				},
 				"ProgramVersionPopup": {
 					"viewType": "XML",
@@ -201,11 +202,14 @@
 				},
 				"primarySkuList": {
 					"viewType": "XML",
-					"viewName": "primarySkuList"
+					"viewName": "primarySkuList",
+					"transition": "slide"
 				},
 				"UpgradeRequestPopup": {
 					"viewType": "XML",
-					"viewName": "UpgradeRequestPopup"
+					"viewName": "UpgradeRequestPopup",
+					"viewLevel": 1,
+					"transition": "flip"
 				},
 				"LicenseComponents": {
 					"viewType": "XML",

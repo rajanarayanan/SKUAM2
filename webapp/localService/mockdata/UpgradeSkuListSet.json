@@ -1,0 +1,28 @@
+{ 
+	"UpgradeSKUListCollection":[
+	{
+	"Id": "4001",
+	"Description": "Citrix Netscaler MPX 8005 Standard"
+	}, 
+	{
+	"Id": "4002",
+	"Description": "Citrix Netscaler MPX 8005 Enterprise"
+	}, 
+	{
+	"Id": "4003",
+	"Description": "Citrix Netscaler MPX 8005 Platinum"
+	}, 
+	{
+	"Id": "4004",
+	"Description": "Citrix Netscaler SDX 8005"
+	}, 
+	{
+	"Id": "4005",
+	"Description": "Citrix Netscaler MPX 8003 Standard"
+	}, 
+	{
+	"Id": "4006",
+	"Description": "Citrix Netscaler SDX 8005 Standard"
+	}
+	]
+}
