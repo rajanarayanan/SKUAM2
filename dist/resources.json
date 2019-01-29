@@ -95,6 +95,12 @@
             "name": "di.code-validation.core_issues.json"
         },
         {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "fioriHtmlRunner.html"
+        },
+        {
             "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
@@ -141,6 +147,9 @@
             "name": "localService/mockdata/UpgradeRequestsSet.json"
         },
         {
+            "name": "localService/mockdata/UpgradeSkuListSet.json"
+        },
+        {
             "name": "localService/mockserver-dbg.js",
             "isDebug": true
         },
@@ -149,6 +158,9 @@
         },
         {
             "name": "manifest.json"
+        },
+        {
+            "name": "model/UpgradeRequestsSet.json"
         },
         {
             "name": "model/formatter-dbg.js",
@@ -362,6 +374,12 @@
             "name": "tmp/css/style.css"
         },
         {
+            "name": "tmp/extended_runnable_file.html"
+        },
+        {
+            "name": "tmp/fioriHtmlRunner.html"
+        },
+        {
             "name": "tmp/i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
@@ -408,10 +426,16 @@
             "name": "tmp/localService/mockdata/UpgradeRequestsSet.json"
         },
         {
+            "name": "tmp/localService/mockdata/UpgradeSkuListSet.json"
+        },
+        {
             "name": "tmp/localService/mockserver.js"
         },
         {
             "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/UpgradeRequestsSet.json"
         },
         {
             "name": "tmp/model/formatter.js"

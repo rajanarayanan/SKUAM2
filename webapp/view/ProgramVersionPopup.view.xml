@@ -96,10 +96,10 @@
 					<OverflowToolbar id="otbFooter">
 						<ToolbarSpacer/>
 						<Button type="Accept" text="OK">
-							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+							<layoutData><OverflowToolbarLayoutData /></layoutData>
 						</Button>
 						<Button type="Reject" text="Cancel" press="onBack">
-							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+							<layoutData><OverflowToolbarLayoutData /></layoutData>
 						</Button>
 					</OverflowToolbar>
 				</footer>

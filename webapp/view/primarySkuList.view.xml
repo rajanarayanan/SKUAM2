@@ -1,16 +1,12 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zskuapp.controller.primarySkuList"
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="zskuapp.controller.primarySkuList">
 	<App>
 		<pages>
 			<Page title="{i18n>primarySkuListTitle}">
 				<headerContent>
-					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px"
-						id="image0"/>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
 				</headerContent>
 				<content>
-					<Table id="table" width="auto" class="sapUiResponsiveMargin"
-						items="{ path: '/PrimarySkuListSet', sorter: { path: 'Id', descending: false } }" noDataText="{worklistView>/tableNoDataText}"
-						busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
+					<Table id="table" width="auto" class="sapUiResponsiveMargin" items="{ path: '/PrimarySkuListSet', sorter: { path: 'Id', descending: false } }" noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
 						<columns>
 							<Column id="nameColumn1">
 								<Text text="{i18n>PrimarySkuListSetColumnTitle1}" id="nameColumnTitle1"/>
@@ -58,6 +54,7 @@
 							</ColumnListItem>
 						</items>
 					</Table>
+					<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Define Upgrade Paths" type="Emphasized" id="button5" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'UpgradeRequestPopup'\}\}\}"/>
 				</content>
 				<footer>
 					<OverflowToolbar id="otbFooter">
