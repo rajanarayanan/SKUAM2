@@ -196,7 +196,11 @@
 					"target": [
 						"UpgradeRequestPopup"
 					]
-				}
+				}, {
+				"name": "LicenseComponents",
+				"pattern": "LicenseComponents",
+				"target": ["LicenseComponents"]
+			}
 			],
 			"targets": {
 				"worklist": {
@@ -246,6 +250,11 @@
 					"viewType": "XML",
 					"viewName": "UpgradeRequestPopup",
 					"viewLevel": 1,
+					"transition": "flip"
+				},
+				"LicenseComponents": {
+					"viewType": "XML",
+					"viewName": "LicenseComponents",
 					"transition": "flip"
 				}
 			},
