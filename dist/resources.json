@@ -36,6 +36,13 @@
             "name": "controller/ErrorHandler.js"
         },
         {
+            "name": "controller/FnoLicensing-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/FnoLicensing.controller.js"
+        },
+        {
             "name": "controller/LicenseComponents-dbg.controller.js",
             "isDebug": true
         },
@@ -112,6 +119,9 @@
             "name": "extended_runnable_file.html"
         },
         {
+            "name": "fioriHtmlRunner.html"
+        },
+        {
             "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
@@ -169,6 +179,9 @@
         },
         {
             "name": "manifest.json"
+        },
+        {
+            "name": "model/Config.json"
         },
         {
             "name": "model/UpgradeRequestsSet.json"
@@ -361,6 +374,9 @@
             "name": "tmp/controller/ErrorHandler.js"
         },
         {
+            "name": "tmp/controller/FnoLicensing.controller.js"
+        },
+        {
             "name": "tmp/controller/LicenseComponents.controller.js"
         },
         {
@@ -392,6 +408,9 @@
         },
         {
             "name": "tmp/extended_runnable_file.html"
+        },
+        {
+            "name": "tmp/fioriHtmlRunner.html"
         },
         {
             "name": "tmp/i18n/i18n.properties",
@@ -447,6 +466,9 @@
         },
         {
             "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/Config.json"
         },
         {
             "name": "tmp/model/UpgradeRequestsSet.json"
@@ -536,6 +558,9 @@
             "name": "tmp/view/App.view.xml"
         },
         {
+            "name": "tmp/view/FnoLicensing.view.xml"
+        },
+        {
             "name": "tmp/view/LicenseComponents.view.xml"
         },
         {
@@ -546,6 +571,9 @@
         },
         {
             "name": "tmp/view/ObjectNotFound.view.xml"
+        },
+        {
+            "name": "tmp/view/ProcessFlow.fragment.xml"
         },
         {
             "name": "tmp/view/ProgramVersionPopup.view.xml"
@@ -573,6 +601,9 @@
         },
         {
             "name": "tmp-dbg/controller/ErrorHandler.js"
+        },
+        {
+            "name": "tmp-dbg/controller/FnoLicensing.controller.js"
         },
         {
             "name": "tmp-dbg/controller/LicenseComponents.controller.js"
@@ -674,6 +705,9 @@
             "name": "view/App.view.xml"
         },
         {
+            "name": "view/FnoLicensing.view.xml"
+        },
+        {
             "name": "view/LicenseComponents.view.xml"
         },
         {
@@ -684,6 +718,9 @@
         },
         {
             "name": "view/ObjectNotFound.view.xml"
+        },
+        {
+            "name": "view/ProcessFlow.fragment.xml"
         },
         {
             "name": "view/ProgramVersionPopup.view.xml"
