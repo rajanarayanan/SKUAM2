@@ -1,0 +1,53 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc"
+		  xmlns="sap.m"
+		  xmlns:t="sap.ui.table"
+		  controllerName="zskuapp.controller.FnoLicensing"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>fnoLicensingTitle}">
+				<headerContent>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
+				</headerContent>
+				<content>
+					
+					<VBox>
+						<t:Table
+    					width="auto"
+    					noData="{worklistView>/tableNoDataText}"
+    					rows="{/PrimarySkuListSet}"
+    					selectionMode="None"
+    					class="sapUiResponsiveMargin"
+    					enableColumnReordering="false"
+    					busyIndicatorDelay="{worklistView>/tableBusyDelay}" 
+    					visibleRowCountMode="Auto">
+    						<t:columns>
+    							<t:Column>
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle1}" />
+    						<t:template>
+    							<Text text="{PltEditionId}"/>
+    						</t:template>
+    							</t:Column>>
+    						</t:columns>
+    					</t:Table>
+    				</VBos>
+				</content>
+				<footer>
+					<OverflowToolbar id="otbFooter">
+						<ToolbarSpacer/>
+						<Button type="Reject" text="Cancel" press="onBack">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Accept" text="Previous" press="onBack">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+						<Button type="Accept" text="Next" press="action">
+							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
+						</Button>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

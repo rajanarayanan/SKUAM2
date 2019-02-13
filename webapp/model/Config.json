@@ -1,0 +1,40 @@
+{
+	"lanes": [{
+			"id": "0",
+			"icon": "sap-icon://order-status",
+			"label": "General Information",
+			"position": 0,
+			"state": []
+		},
+
+		{
+			"id": "1",
+			"icon": "sap-icon://chain-link",
+			"label": "Primary SKU Components & Upgrades",
+			"position": 1,
+			"state": []
+		},
+
+		{
+			"id": "2",
+			"icon": "sap-icon://bullet-text",
+			"label": "Primary SKU List",
+			"position": 2,
+			"state": []
+		},
+		{
+			"id": "3",
+			"icon": "sap-icon://add-activity",
+			"label": "FNO Licensing",
+			"position": 3,
+			"state": []
+		},
+		{
+			"id": "4",
+			"icon": "sap-icon://question-mark",
+			"label": "Questionary",
+			"position": 4,
+			"state": []
+		}
+	]
+}

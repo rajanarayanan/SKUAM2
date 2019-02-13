@@ -1,0 +1,42 @@
+<core:FragmentDefinition
+    xmlns:m="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.suite.ui.commons"
+    xmlns:core="sap.ui.core">
+		<m:VBox>
+		<ProcessFlow
+			id="idProcessflow1"
+			scrollable="false"
+			foldedCorners="true"
+			nodePress="onNodePress"
+			nodes="{/nodes}"
+			lanes="{/lanes}">
+			<nodes>
+				<ProcessFlowNode
+					laneId="{lane}"
+					nodeId="{id}"
+					title="{title}"
+					titleAbbreviation="{titleAbbreviation}"
+					children="{children}"
+					state="{state}"
+					stateText="{stateText}"
+					texts="{texts}"
+					highlighted="{highlighted}"
+					focused="{focused}" />
+			</nodes>
+			<lanes>
+				<ProcessFlowLaneHeader
+					laneId="{id}"
+					iconSrc="{icon}"
+					text="{label}"
+					position="{position}"
+					state="{state}" 
+					press="onHeaderPress" />
+			</lanes>
+		</ProcessFlow> 
+		</m:VBox>
+		<!--<Button text="PFButton"></Button>-->
+	
+	
+</core:FragmentDefinition>

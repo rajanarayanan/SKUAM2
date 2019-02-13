@@ -78,6 +78,12 @@
 					"bundleName": "zskuapp.i18n.i18n"
 				}
 			},
+			"Config": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "model/Config.json",
+				"preload": false
+			},
 			"": {
 				"dataSource": "mainService",
 				"settings": {
@@ -259,6 +265,10 @@
 					"viewType": "XML",
 					"viewName": "LicenseComponents",
 					"transition": "flip"
+				},
+				"FnoLicensing": {
+					"viewType": "XML",
+					"viewName": "FnoLicensing"
 				}
 			},
 			"additionalData": {

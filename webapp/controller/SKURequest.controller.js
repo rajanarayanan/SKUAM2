@@ -6,7 +6,41 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf zskuapp.view.SKURequest
 		 */
-		onInit: function () {},
+		onInit: function () {
+			
+            var oModel = new sap.ui.model.Model();
+            
+            oModel = this.getOwnerComponent().getModel("Config");
+            
+            oModel.loadData();
+
+            var oPF = this.byId(sap.ui.core.Fragment.createId("idPF1", "idProcessflow1"));
+            
+            sap.ui.getCore().stepNo = 0;
+            var stepNo = 0;
+            
+            var oData = oModel.getData();
+            
+		 	oData.lanes[stepNo].state = [
+											{
+												"state": "Neutral",
+												"value": 50
+											}
+										];		 	
+
+			oModel.setData(oData);
+			
+			this.getOwnerComponent().setModel("Config",oModel);                
+            
+            oPF.setModel(oModel);
+                
+                
+		    var router = this.getOwnerComponent().getRouter();
+		    var target = router.getTarget("SKURequest");
+		    target.attachDisplay(this.onDisplay, this);                
+            
+			
+		},
 		/**
 		 *@memberOf zskuapp.controller.SKURequest
 		 */
@@ -45,6 +79,16 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 			// eslint-disable-next-line sap-no-history-manipulation
 			history.go(-1);
 
-		}
+		},
+		onDisplay: function(oEvent){
+		 	
+		 	
+		 	
+		 },
+		 onHeaderPress: function(oEvent){
+		 	
+		 	
+		 	
+		 }
 	});
 });

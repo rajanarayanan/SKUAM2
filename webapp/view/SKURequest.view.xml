@@ -6,6 +6,7 @@
 					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
 				</headerContent>
 				<content>
+					<core:Fragment id="idPF1" fragmentName="zskuapp.view.ProcessFlow" type="XML" />
 					<Panel>
 						<content>
 							<FlexBox alignItems="Center" justifyContent="Center">
