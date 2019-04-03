@@ -209,6 +209,13 @@
 					"target": [
 						"LicenseComponents"
 					]
+				},
+				{
+					"name": "Questionnaire",
+					"pattern": "Questionnaire",
+					"target": [
+						"Questionnaire"
+					]
 				}
 			],
 			"targets": {
@@ -269,6 +276,14 @@
 				"FnoLicensing": {
 					"viewType": "XML",
 					"viewName": "FnoLicensing"
+				},
+				"questionnaire": {
+					"viewType": "XML",
+					"viewName": "questionnaire"
+				},
+				"Questionnaire": {
+					"viewType": "XML",
+					"viewName": "Questionnaire"
 				}
 			},
 			"additionalData": {

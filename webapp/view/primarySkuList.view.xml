@@ -1,8 +1,4 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-    	xmlns:u="sap.ui.unified"
-    	xmlns:t="sap.ui.table"
-    	controllerName="zskuapp.controller.primarySkuList"
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:t="sap.ui.table" controllerName="zskuapp.controller.primarySkuList" xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
 			<Page title="{i18n>primarySkuListTitle}">
@@ -11,45 +7,34 @@
 				</headerContent>
 				<content>
 					<VBox>
-					<t:Table
-    				width="auto"
-    				noData="{worklistView>/tableNoDataText}"
-    				rows="{/PrimarySkuListSet}"
-    				selectionMode="None"
-    				class="sapUiResponsiveMargin"
-    				enableColumnReordering="false"
-    				busyIndicatorDelay="{worklistView>/tableBusyDelay}" 
-    				visibleRowCountMode="Auto">
+					<t:Table width="auto" noData="{worklistView>/tableNoDataText}" rows="{/PrimarySkuListSet}" selectionMode="None" class="sapUiResponsiveMargin" enableColumnReordering="false" busyIndicatorDelay="{worklistView>/tableBusyDelay}" visibleRowCountMode="Auto">
     				<t:columns>
     					<t:Column>
-    						<Label text="{i18n>PrimarySkuListSetColumnTitle1}" />
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle1}"/>
     						<t:template>
     							<Text text="{PltEditionId}"/>
     						</t:template>
     					</t:Column>
     					<t:Column>
-    						<Label text="{i18n>PrimarySkuListSetColumnTitle2}" />
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle2}"/>
     						<t:template>
     							<u:Currency value="{srp}" currency="{Curr}"/>
     						</t:template>
     					</t:Column>
     					<t:Column width="10rem" hAlign="Center">
-    						<Label text="{i18n>PrimarySkuListSetColumnTitle3}" />
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle3}"/>
     						<t:template>
-    							<Button text="ADD" type="Emphasized"  
-    							xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" 
-    							press="action" 
-    							action:wiring="\{'press':\{'navigation':\{'routeName':'LicenseComponents'\}\}\}"/>
+    							<Button text="ADD" type="Emphasized" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'LicenseComponents'\}\}\}"/>
     						</t:template>
     					</t:Column>
     					<t:Column>
-    						<Label text="{i18n>PrimarySkuListSetColumnTitle4}" />
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle4}"/>
     						<t:template>
-    							<Text text="Component" />
+    							<Text text="Component"/>
     						</t:template>
     					</t:Column>
     					<t:Column width="6rem" hAlign="Center">
-    						<Label text="{i18n>PrimarySkuListSetColumnTitle5}" />
+    						<Label text="{i18n>PrimarySkuListSetColumnTitle5}"/>
     						<t:template>
     							<Switch state="true" customTextOn=" " customTextOff=" ">
 											<layoutData>
@@ -72,7 +57,7 @@
 						<Button type="Accept" text="Previous" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
-						<Button type="Accept" text="Next" press="action">
+						<Button type="Accept" text="Next" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'Questionnaire'\}\}\}" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 					</OverflowToolbar>

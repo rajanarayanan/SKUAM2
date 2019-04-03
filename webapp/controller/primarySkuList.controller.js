@@ -67,10 +67,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 			//	onExit: function() {
 			//
 			//	}
-			
+
 		/**
 		 *@memberOf zskuapp.controller.primarySkuList
 		 */
-		
+
 	});
 });
