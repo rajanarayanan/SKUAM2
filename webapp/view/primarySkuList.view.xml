@@ -1,4 +1,4 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:t="sap.ui.table" controllerName="zskuapp.controller.primarySkuList" xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:t="sap.ui.table" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="zskuapp.controller.primarySkuList">
 	<App>
 		<pages>
 			<Page title="{i18n>primarySkuListTitle}">
@@ -24,7 +24,7 @@
     					<t:Column width="10rem" hAlign="Center">
     						<Label text="{i18n>PrimarySkuListSetColumnTitle3}"/>
     						<t:template>
-    							<Button text="ADD" type="Emphasized" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'LicenseComponents'\}\}\}"/>
+    							<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="ADD" type="Emphasized" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'LicenseComponents'\}\}\}"/>
     						</t:template>
     					</t:Column>
     					<t:Column>
@@ -57,7 +57,7 @@
 						<Button type="Accept" text="Previous" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
-						<Button type="Accept" text="Next" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'Questionnaire'\}\}\}" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+						<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Accept" text="Next" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'ReviewPrimarySKUList'\}\}\}">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 					</OverflowToolbar>

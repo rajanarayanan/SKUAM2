@@ -106,34 +106,6 @@
 														</ColumnListItem>
 													</items>
 												</Table>
-												<!--
-												<t:Table 
-												id="table1" 
-												selectionMode="None" 
-												rows="{/SkuRequestSet}">
-													<t:columns>
-														<t:Column id="t1column0" width="30%">
-															<Label text="From" id="t1label0"/>
-															<t:template>
-																<Text text="{ProductType}"/>
-															</t:template>
-														</t:Column>
-														<t:Column id="t1column1" width="30%">
-															<Label text="To" id="t1label1"/>
-															<t:template>
-																<Text text="{ProductType}"/>
-															</t:template>
-														</t:Column>
-														<t:Column id="t1column2" width="10%">
-															<Label text="Action" id="t1label2"/>
-															<t:template>
-																<Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button0"
-																	icon="sap-icon://delete" press="DeleteSelectedRow"/>
-															</t:template>
-														</t:Column>
-													</t:columns>
-												</t:Table> 
-												-->
 											</content>
 										</Panel>
 									</items>

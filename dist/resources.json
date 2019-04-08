@@ -36,11 +36,11 @@
             "name": "controller/ErrorHandler.js"
         },
         {
-            "name": "controller/FnoLicensing-dbg.controller.js",
+            "name": "controller/FNOLicensing-dbg.controller.js",
             "isDebug": true
         },
         {
-            "name": "controller/FnoLicensing.controller.js"
+            "name": "controller/FNOLicensing.controller.js"
         },
         {
             "name": "controller/LicenseComponents-dbg.controller.js",
@@ -78,6 +78,20 @@
             "name": "controller/ProgramVersionPopup.controller.js"
         },
         {
+            "name": "controller/Questionnaire-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Questionnaire.controller.js"
+        },
+        {
+            "name": "controller/ReviewPrimarySKUList-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/ReviewPrimarySKUList.controller.js"
+        },
+        {
             "name": "controller/SKURequest-dbg.controller.js",
             "isDebug": true
         },
@@ -106,6 +120,13 @@
             "name": "controller/primarySkuList.controller.js"
         },
         {
+            "name": "controller/questionnaire-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/questionnaire.controller.js"
+        },
+        {
             "name": "css/style-dbg.css",
             "isDebug": true
         },
@@ -114,12 +135,6 @@
         },
         {
             "name": "di.code-validation.core_issues.json"
-        },
-        {
-            "name": "extended_runnable_file.html"
-        },
-        {
-            "name": "fioriHtmlRunner.html"
         },
         {
             "name": "i18n/i18n.properties",
@@ -374,7 +389,7 @@
             "name": "tmp/controller/ErrorHandler.js"
         },
         {
-            "name": "tmp/controller/FnoLicensing.controller.js"
+            "name": "tmp/controller/FNOLicensing.controller.js"
         },
         {
             "name": "tmp/controller/LicenseComponents.controller.js"
@@ -392,6 +407,12 @@
             "name": "tmp/controller/ProgramVersionPopup.controller.js"
         },
         {
+            "name": "tmp/controller/Questionnaire.controller.js"
+        },
+        {
+            "name": "tmp/controller/ReviewPrimarySKUList.controller.js"
+        },
+        {
             "name": "tmp/controller/SKURequest.controller.js"
         },
         {
@@ -404,13 +425,10 @@
             "name": "tmp/controller/primarySkuList.controller.js"
         },
         {
+            "name": "tmp/controller/questionnaire.controller.js"
+        },
+        {
             "name": "tmp/css/style.css"
-        },
-        {
-            "name": "tmp/extended_runnable_file.html"
-        },
-        {
-            "name": "tmp/fioriHtmlRunner.html"
         },
         {
             "name": "tmp/i18n/i18n.properties",
@@ -558,7 +576,7 @@
             "name": "tmp/view/App.view.xml"
         },
         {
-            "name": "tmp/view/FnoLicensing.view.xml"
+            "name": "tmp/view/FNOLicensing.view.xml"
         },
         {
             "name": "tmp/view/LicenseComponents.view.xml"
@@ -577,6 +595,12 @@
         },
         {
             "name": "tmp/view/ProgramVersionPopup.view.xml"
+        },
+        {
+            "name": "tmp/view/Questionnaire.view.xml"
+        },
+        {
+            "name": "tmp/view/ReviewPrimarySKUList.view.xml"
         },
         {
             "name": "tmp/view/SKURequest.view.xml"
@@ -603,7 +627,7 @@
             "name": "tmp-dbg/controller/ErrorHandler.js"
         },
         {
-            "name": "tmp-dbg/controller/FnoLicensing.controller.js"
+            "name": "tmp-dbg/controller/FNOLicensing.controller.js"
         },
         {
             "name": "tmp-dbg/controller/LicenseComponents.controller.js"
@@ -621,6 +645,12 @@
             "name": "tmp-dbg/controller/ProgramVersionPopup.controller.js"
         },
         {
+            "name": "tmp-dbg/controller/Questionnaire.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/ReviewPrimarySKUList.controller.js"
+        },
+        {
             "name": "tmp-dbg/controller/SKURequest.controller.js"
         },
         {
@@ -631,6 +661,9 @@
         },
         {
             "name": "tmp-dbg/controller/primarySkuList.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/questionnaire.controller.js"
         },
         {
             "name": "tmp-dbg/css/style.css"
@@ -705,7 +738,7 @@
             "name": "view/App.view.xml"
         },
         {
-            "name": "view/FnoLicensing.view.xml"
+            "name": "view/FNOLicensing.view.xml"
         },
         {
             "name": "view/LicenseComponents.view.xml"
@@ -724,6 +757,12 @@
         },
         {
             "name": "view/ProgramVersionPopup.view.xml"
+        },
+        {
+            "name": "view/Questionnaire.view.xml"
+        },
+        {
+            "name": "view/ReviewPrimarySKUList.view.xml"
         },
         {
             "name": "view/SKURequest.view.xml"

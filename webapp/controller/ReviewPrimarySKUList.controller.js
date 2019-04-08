@@ -1,14 +1,14 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 	"use strict";
-	return Controller.extend("zskuapp.controller.Questionnaire", {
+	return Controller.extend("zskuapp.controller.ReviewPrimarySKUList", {
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
-		 * @memberOf zskuapp.view.Questionnaire
+		 * @memberOf zskuapp.view.ReviewPrimarySKUList
 		 */
 		onInit: function () {},
 		/**
-		 *@memberOf zskuapp.controller.Questionnaire
+		 *@memberOf zskuapp.controller.ReviewPrimarySKUList
 		 */
 		action: function (oEvent) {
 			var that = this;
@@ -44,6 +44,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
 		onBack: function (oEvent) {
 				// eslint-disable-next-line sap-no-history-manipulation
 				history.go(-1);
-			}		
+			}
 	});
 });

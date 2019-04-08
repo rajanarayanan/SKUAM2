@@ -148,24 +148,10 @@
 					]
 				},
 				{
-					"name": "Object_binded",
-					"pattern": "Object/{Id}",
-					"target": [
-						"object"
-					]
-				},
-				{
 					"name": "SKURequest",
 					"pattern": "SKURequest",
 					"target": [
 						"SKURequest"
-					]
-				},
-				{
-					"name": "Object",
-					"pattern": "Object",
-					"target": [
-						"object"
 					]
 				},
 				{
@@ -215,6 +201,20 @@
 					"pattern": "Questionnaire",
 					"target": [
 						"Questionnaire"
+					]
+				},
+				{
+					"name": "ReviewPrimarySKUList",
+					"pattern": "ReviewPrimarySKUList",
+					"target": [
+						"ReviewPrimarySKUList"
+					]
+				},
+				{
+					"name": "FNOLicensing",
+					"pattern": "FNOLicensing",
+					"target": [
+						"FNOLicensing"
 					]
 				}
 			],
@@ -284,6 +284,14 @@
 				"Questionnaire": {
 					"viewType": "XML",
 					"viewName": "Questionnaire"
+				},
+				"ReviewPrimarySKUList": {
+					"viewType": "XML",
+					"viewName": "ReviewPrimarySKUList"
+				},
+				"FNOLicensing": {
+					"viewType": "XML",
+					"viewName": "FNOLicensing"
 				}
 			},
 			"additionalData": {

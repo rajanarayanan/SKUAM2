@@ -1,16 +1,13 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table"
-	controllerName="zskuapp.controller.Questionnaire" xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="zskuapp.controller.Questionnaire">
 	<App>
 		<pages>
 			<Page title="{i18n>questionnaire}">
 				<headerContent>
-					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px"
-						id="image0"/>
+					<Image src="https://www.citrix.com/content/dam/citrix61/en_us/images/logos/citrix/citrix-logo-black.png" width="100px" height="35px" id="image0"/>
 				</headerContent>
 				<content>
 					<VBox>
-						<t:Table width="auto" noData="{worklistView>/tableNoDataText}" rows="{/ReqQuestionariesSet}" selectionMode="None"
-							class="sapUiResponsiveMargin" enableColumnReordering="false" busyIndicatorDelay="{worklistView>/tableBusyDelay}" visibleRowCountMode="Auto">
+						<t:Table width="auto" noData="{worklistView>/tableNoDataText}" rows="{/ReqQuestionariesSet}" selectionMode="None" class="sapUiResponsiveMargin" enableColumnReordering="false" busyIndicatorDelay="{worklistView>/tableBusyDelay}" visibleRowCountMode="Auto">
 							<t:columns>
 								<t:Column>
 									<Label text="{i18n>QuestionariesSetColumnTitle1}"/>
@@ -44,7 +41,7 @@
 						<Button type="Reject" text="Cancel" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
-						<Button type="Accept" text="Previous" press="onBack">
+						<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Accept" text="Previous" press="onBack">
 							<layoutData><OverflowToolbarLayoutData moveToOverflow="false"/></layoutData>
 						</Button>
 						<Button type="Accept" text="Submit" press="action">
